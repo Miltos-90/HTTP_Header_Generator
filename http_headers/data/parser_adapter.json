@@ -1,0 +1,15 @@
+{
+    "browser":
+    {
+        "chromium": "chrome",
+        "android browser": "chrome",
+        "samsung browser": "chrome",
+        "chrome webview" :"chrome",
+        "mobile safari": "safari",
+        "opera mini": "opera",
+        "opera tablet": "opera"
+    },
+    "os": {
+        "ubuntu": "linux"
+    }
+}
