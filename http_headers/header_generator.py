@@ -1,14 +1,13 @@
 """ Implementation of the Header Generator class, along with and helper classes """
 
-from abc                import ABC
-from .ua_parser         import Parser
-from collections        import OrderedDict
-from typing             import Literal, Dict, Union, Any
-from ua_generator       import CHParser, Generator as UAGenerator
-from .                  import utils
-import definitions      as defs
-import header_generator as hg
-import random           as rd
+from abc           import ABC
+from .ua_parser    import Parser
+from collections   import OrderedDict
+from typing        import Literal, Dict, Union, Any
+from .ua_generator import CHParser, Generator as UAGenerator
+from .             import definitions as defs
+from .             import utils
+import random      as rd
 import warnings
 
 
@@ -355,12 +354,12 @@ class HeaderGenerator(metaclass = utils.Singleton):
         self.Parser      = Parser()
         self.UserAgent   = UAGenerator(by = by, **kwargs)
         
-        self.ClientHints = hg.ClientHintGenerator()
-        self.Referer     = hg.GenericHeaderGenerator('./data/referers.json')
-        self.Encoder     = hg.AcceptEncoding('./data/acceptEncoding.json')
-        self.Language    = hg.AcceptLanguage('./data/languages.json')
-        self.Accept      = hg.Accept('./data/accept.json')
-        self.Selector    = hg.Selector()
+        self.ClientHints = ClientHintGenerator()
+        self.Referer     = GenericHeaderGenerator('./data/referers.json')
+        self.Encoder     = AcceptEncoding('./data/acceptEncoding.json')
+        self.Language    = AcceptLanguage('./data/languages.json')
+        self.Accept      = Accept('./data/accept.json')
+        self.Selector    = Selector()
         self.domains     = list(self.Referer.data.keys())
 
         # Header-browser-version compatibility tables

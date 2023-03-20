@@ -1,2 +1,2 @@
-# HTTP_Header_Generator
-Generator of realistic fields for http headers.
+# HTTP Header Generator
+A generator of realistic HTTP headers for python.

@@ -4,22 +4,26 @@ from abc     import ABCMeta
 from typing  import Any
 import json
 import os
+import os
 
-def readFile(pathToFile: str) -> Any:
+PATH  = os.path.dirname(__file__) # Absolute path of this file
+
+def readFile(filename: str) -> Any:
     """ Generic txt/json reader """
 
-    isjson = lambda x: x.endswith('.json')
-    istxt  = lambda x: x.endswith('.txt')
+    isjson   = lambda x: x.endswith('.json')
+    istxt    = lambda x: x.endswith('.txt')
+    filePath = os.path.join(PATH, filename)
 
-    if os.path.isfile(pathToFile):
-        with open(pathToFile, mode = 'r', encoding = 'utf-8') as f:
+    if os.path.isfile(filePath):
+        with open(filePath, mode = 'r', encoding = 'utf-8') as f:
 
-            if   isjson(pathToFile): contents = json.load(f)
-            elif istxt(pathToFile) : contents = f.readlines()
-            else: raise RuntimeError(f"{pathToFile} is not a .json or .txt file")
+            if   isjson(filePath): contents = json.load(f)
+            elif istxt(filePath) : contents = f.readlines()
+            else: raise RuntimeError(f"{filePath} is not a .json or .txt file")
 
     else:
-        raise FileNotFoundError(f"{pathToFile} does not exist.")
+        raise FileNotFoundError(f"{filePath} does not exist.")
 
     return contents
 

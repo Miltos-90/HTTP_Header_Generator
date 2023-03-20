@@ -2,12 +2,12 @@
     for compatibility with the user-agent-string generators.
 """
 
-from definitions import UNKNOWN_NAME, UNKNOWN_VERSION, PARSER_TYPE, PARSERS, EMPTY
-from typing      import Dict, Tuple
-from abc         import ABC, abstractmethod
-from ua_parser   import Parser, Dataclass
-from utils       import readFile
-from dataclasses import fields
+from ..definitions  import UNKNOWN_NAME, UNKNOWN_VERSION, PARSER_TYPE, PARSERS, EMPTY
+from typing         import Dict, Tuple
+from abc            import ABC, abstractmethod
+from ..ua_parser    import Parser, Dataclass
+from ..utils        import readFile
+from dataclasses    import fields
 
 
 class Proxy(ABC):

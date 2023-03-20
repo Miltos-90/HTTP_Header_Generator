@@ -1,8 +1,8 @@
 """ Declaration of classes / datatypes used jointly by all modules """
 
-from definitions import UNKNOWN_VERSION, UNKNOWN_NAME
-from typing      import Protocol, ClassVar, Dict
-from dataclasses import dataclass
+from ..definitions import UNKNOWN_VERSION, UNKNOWN_NAME
+from typing        import Protocol, ClassVar, Dict
+from dataclasses   import dataclass
 import re
 
 

@@ -4,12 +4,12 @@
     Based on the ua_parser_py repo: https://github.com/vitalibo/ua-parser-py. 
 """
 
-from dataclasses import fields
-from ..utils     import Singleton
-from .           import regexes as r
-from .           import datatypes as dtypes
-from typing      import Tuple, Union, Callable, List, Type, cast
-from definitions import UNKNOWN_NAME, UNKNOWN_VERSION, PARSER_TYPE, PARSERS
+from dataclasses    import fields
+from ..utils        import Singleton
+from .              import regexes as r
+from .              import datatypes as dtypes
+from typing         import Tuple, Union, Callable, List, Type, cast
+from ..definitions  import UNKNOWN_NAME, UNKNOWN_VERSION, PARSER_TYPE, PARSERS
 import re
 
 

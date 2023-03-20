@@ -1,8 +1,8 @@
 """ Holds the necessary data for the generation of randomized user agents (see programmer.py) """
 
-from typing      import Literal, Tuple, Dict, Union, Set, get_args
-from definitions import BROWSER_TYPE
-from dataclasses import dataclass
+from typing         import Literal, Tuple, Dict, Union, Set, get_args
+from ..definitions  import BROWSER_TYPE
+from dataclasses    import dataclass
 
 
 """ Datatypes declaration for the dictionaries below. """

@@ -3,15 +3,15 @@
     Programmer class (see generators.py)
 """
 
-from definitions  import BROWSER_TYPE, UNKNOWN_NAME, GENERATOR_TYPE, BROWSERS
-from typing       import Union, cast, Tuple
-from random       import randint, choice
-from .            import constants as c
-from bs4          import BeautifulSoup
-from utils        import readFile
+from ..definitions  import BROWSER_TYPE, UNKNOWN_NAME, GENERATOR_TYPE, BROWSERS
+from typing         import Union, cast, Tuple
+from random         import randint, choice
+from .              import constants as c
+from bs4            import BeautifulSoup
+from ..utils        import readFile
 import requests
 import string
-
+import os
 
 class SoftwareFactory():
     """ Base software factory. It provides random software versions and their corresponding details """
@@ -186,7 +186,7 @@ class SoftwareGenerator():
         else: raise ValueError(f'Software {name} is not a valid input.')
 
 
-def get(by: GENERATOR_TYPE, **kwargs):
+def getAgent(by: GENERATOR_TYPE, **kwargs):
     """ Creates and returns an appropriate function for user agent string generation 
         based on the provided type (<by> argument) and additional parameters.
     """
@@ -195,7 +195,18 @@ def get(by: GENERATOR_TYPE, **kwargs):
     
     def read(filename: str):
         """ Reads a list of User-Agent strings from a given file. """
-        for agent in readFile(filename): yield agent
+
+        exists = os.path.isfile(filename)
+        istxt  = filename.endswith('.txt')
+
+        if exists and istxt:
+            with open(filename, mode = 'r', encoding = 'utf-8') as f:
+                contents = f.readlines()
+
+            for agent in contents: yield agent
+
+        elif not exists: raise FileNotFoundError(r'File {filename} does not exist.')
+        elif not istxt : raise ValueError(r'File {filename} is not a .txt file.')
 
 
     def scrape( 

@@ -6,13 +6,13 @@
     the constants.py file. It is based on the repo: https://github.com/iamdual/ua-generator/
 """
 
-from definitions  import BROWSER_TYPE, DEVICE_TYPE, GENERATOR_TYPE
-from definitions  import DEVICES, BROWSERS, MAX_USER_AGENT_SIZE as UA_SIZE
-from .proxies     import ParserToGeneratorProxy as Parser
-from typing       import Dict, List, Tuple
-from collections  import defaultdict
-from random       import choice
-from .helpers     import get
+from ..definitions  import BROWSER_TYPE, DEVICE_TYPE, GENERATOR_TYPE
+from ..definitions  import DEVICES, BROWSERS, MAX_USER_AGENT_SIZE as UA_SIZE
+from .proxies       import ParserToGeneratorProxy as Parser
+from typing         import Dict, List, Tuple
+from collections    import defaultdict
+from random         import choice
+from .helpers       import getAgent
 import warnings
 
 
@@ -107,7 +107,7 @@ class Generator():
         # Counters for stats
         succesfulImports, unsuccesfulImports = 0, 0
 
-        for userAgent in get(by, **kwargs):
+        for userAgent in getAgent(by, **kwargs):
 
             browser   = self._getAttribute(userAgent, ('browser', 'name'))
             device    = self._getAttribute(userAgent, ('device', 'type'))
