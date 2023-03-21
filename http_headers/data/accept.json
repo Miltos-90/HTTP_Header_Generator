@@ -1,0 +1,54 @@
+{
+    "firefox" : [
+        {
+            "version_from" : 92,
+            "version_to"   : 99999, 
+            "header"       : "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+        },{
+            "version_from" : 72,
+            "version_to"   : 92, 
+            "header"       : "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+        }
+        ,{
+            "version_from" : 66,
+            "version_to"   : 72, 
+            "header"       : "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+        },{
+            "version_from" : 65,
+            "version_to"   : 66, 
+            "header"       : "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+        },{
+            "version_from" : 0,
+            "version_to"   : 65, 
+            "header"       : "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+            }
+    ],
+    "chrome"  : [
+        {
+            "version_from" : 0,
+            "version_to"   : 99999,
+            "header"       : "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        }
+    ],
+    "safari" : [
+        {
+            "version_from" : 0,
+            "version_to"   : 99999,
+            "header"       : "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        }
+    ],
+    "edge" : [
+        {
+            "version_from" : 0,
+            "version_to"   : 99999,
+            "header"       : "text/html, application/xhtml+xml, image/jxr, */*"
+        }
+    ],
+    "opera" : [
+        {
+            "version_from" : 0,
+            "version_to"   : 99999,
+            "header"       : "text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1"
+        }
+    ]
+}
