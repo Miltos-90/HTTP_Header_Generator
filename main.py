@@ -1,6 +1,5 @@
 # TODO Check this when writing readme: https://github.com/AhmedSakrr/Fake-Headers, https://github.com/ua-parser/uap-python
-# TODO Packaging: https://packaging.python.org/en/latest/tutorials/packaging-projects/
-# TODO Packaging: https://holypython.com/python-packaging-quick-tutorial-checklist/
+# TODO Packaging: https://www.freecodecamp.org/news/build-your-first-python-package/
 
 from http_headers import HeaderGenerator
 
