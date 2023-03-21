@@ -201,7 +201,7 @@ def getAgent(by: GENERATOR_TYPE, **kwargs):
 
         if exists and istxt:
             with open(filename, mode = 'r', encoding = 'utf-8') as f:
-                contents = f.readlines()
+                contents = f.read().splitlines()
 
             for agent in contents: yield agent
 

@@ -15,7 +15,7 @@ if __name__ == "__main__":
     #headers = HeaderGenerator(by = 'scrape')
     e = 0
     for _ in range(2):
-        h = headers(httpVersion=1, cookies=cookies, device='mobile', browser='safari')
+        h = headers(httpVersion=1, cookies=cookies, device='mobile', browser='safari', domain = 'pl')
 
         for k, v in h.items():
             print(k, v)

@@ -19,7 +19,7 @@ def readFile(filename: str) -> Any:
         with open(filePath, mode = 'r', encoding = 'utf-8') as f:
 
             if   isjson(filePath): contents = json.load(f)
-            elif istxt(filePath) : contents = f.readlines()
+            elif istxt(filePath) : contents = f.read().splitlines()
             else: raise RuntimeError(f"{filePath} is not a .json or .txt file")
 
     else:
