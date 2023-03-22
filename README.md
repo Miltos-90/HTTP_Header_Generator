@@ -25,23 +25,54 @@ In addition, it supports the following [Client Hints](https://wicg.github.io/cli
 * Sec-CH-UA-Platform-Version
 
 The generated headers conform to http-version specific ordering and support [rules](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers), and are browser-, version-, and locale- compatible and specific. 
-In particular, the user can choose between the following:
 
-* domains: 
-    * com, jsp, edu, org, info, net, php3, aspx, biz, uk, it,
-                    is,  ua,  cc,  de,  us,   tv,  eu,   ru,   cn,  jp, nl, be,  
-                    fr,  ch,  gr,  se,  dk,   bg,  cz,   hu,   lt,  pl, ro, sk, 
-                    si,  br,  pt,  es,  il,   au,  io,   no,   ir,  at
-* Browsers
-                * str containing one of: chrome, edge, firefox, safari
-                * Empty: random selection among all
-* Devices
-                * str containing one of: mobile, desktop
-                * Empty: random selection among all
-* HTTP version (int), can be either 1 (supports both 1.0 and 1.1) 2, or
-                empty which defaults to 1
-        
-If not supplied, domain is chosen randomly, whereas browser and device are chosen in line with modern browser market share [data](https://gs.statcounter.com/) (see data_notes.md for a complete list of data sources per file).
+In particular, the following choices are available:
+
+<table >
+  <tr>
+    <td>Input </td>
+    <td colspan="11", rowspan="1">Possible values</td>
+  </tr>
+  <tr>
+   <td>Browser</td>
+   <td>Chrome</td>
+   <td>Edge</td>
+   <td>Firefox</td>
+   <td>Safari</td>
+   <td colspan="7">Opera</td>
+  </tr>
+  <tr>
+   <td>Device</td>
+   <td>Desktop</td>
+   <td colspan="10">Mobile</td>
+  </tr>
+  <tr>
+    <td  rowspan="4" >Domain</td>
+    <td>be</td><td>biz</td><td>bg</td><td>br</td><td>cc</td>
+    <td>ch</td><td>cn</td><td>com</td><td>cz</td><td>de</td> 
+    <td>dk</td>
+  </tr>
+  <tr>
+    <td>edu</td><td>es</td><td>eu</td><td>fr</td><td>gr</td>
+    <td>hu</td><td>il</td><td>info</td><td>io</td><td>ir</td>
+    <td>is</td>
+  </tr>
+  <tr>
+    <td>it</td><td>jp</td><td>jsp</td><td>lt</td><td>net</td>
+    <td>nl</td><td>no</td><td>org</td><td>php3</td><td colspan="2">pl</td>
+  </tr>
+  <tr>
+    <td>pt</td><td>ro</td><td>ru</td><td>se</td><td>si</td>
+    <td>sk</td><td>tv</td><td>ua</td><td>uk</td><td colspan="2">us</td>
+  </tr>
+  <tr>
+   <td >HTTP version</td>
+   <td>1.x</td>
+   <td colspan="10">2.0</td>
+  </tr>
+</table>
+      
+If not supplied by the user, domain is chosen randomly, whereas browser and device are chosen in line with browser market share [data](https://gs.statcounter.com/) (see data_notes.md for a complete list of data sources per file).
 
 User agents can be generated in one of the following ways:
 * programmer

@@ -1,6 +1,8 @@
 # TODO Check this when writing readme: https://github.com/AhmedSakrr/Fake-Headers, https://github.com/ua-parser/uap-python, 
 # https://github.com/MichaelTatarski/fake-http-header/blob/main/README.md
 # TODO Packaging: https://www.freecodecamp.org/news/build-your-first-python-package/
+# TODO: Domain selection https://en.wikipedia.org/wiki/List_of_countries_by_number_of_Internet_users
+# https://www.iban.com/country-codes
 
 from http_headers import HeaderGenerator
 
