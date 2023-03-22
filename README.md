@@ -63,7 +63,7 @@ In particular, the following choices are available:
   </tr>
   <tr>
     <td>pt</td><td>ro</td><td>ru</td><td>se</td><td>si</td>
-    <td>sk</td><td>tv</td><td>ua</td><td>uk</td><td colspan="2">us</td>
+    <td>sk</td><td>tv</td><td>ua</td><td>uk</td><td colspan="1">us</td>
   </tr>
   <tr>
    <td >HTTP version</td>
