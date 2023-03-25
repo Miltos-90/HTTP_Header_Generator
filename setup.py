@@ -3,19 +3,17 @@ from setuptools import setup
 
 with open('./README.md', 'r') as f: README = f.read()
 
-# Setting up
 setup(
-    # the name must match the folder name 'verysimplemodule'
-    name="http-headers", 
-    version="2.1.1",
+    name="random-header-generator", 
+    version="1.0",
     author="miltos_90",
     description='Generator of random, realistic http headers.',
     long_description=README,
     long_description_content_type="text/markdown",
-    packages=["http_headers"],
+    packages=["random_header_generator"],
     license="GNU General Public License v3.0",
     install_requires=["bs4", "requests"],
-    keywords=['python', 'first package'],
+    keywords=['python', 'headers', 'http'],
     classifiers=[
     "Environment :: Web Environment",
     "Intended Audience :: Developers",

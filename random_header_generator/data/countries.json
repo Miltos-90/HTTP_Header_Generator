@@ -1,0 +1,4083 @@
+{
+    "af": {
+        "name": "afghanistan",
+        "user_fraction": 0.08080796182059433,
+        "referers": [
+            "https://www.google.com",
+            "https://www.yahoo.com",
+            "https://www.google.com.af"
+        ],
+        "languages": {
+            "balochi": [
+                "fa-AF",
+                "uz-AF"
+            ],
+            "nuristani": [
+                "fa-AF",
+                "uz-AF"
+            ],
+            "pamiri": [
+                "fa-AF",
+                "uz-AF"
+            ],
+            "pashayi": [
+                "fa-AF",
+                "uz-AF"
+            ],
+            "pashto": [
+                "ps",
+                "fa-AF"
+            ],
+            "persian": [
+                "fa-AF",
+                "uz-AF"
+            ],
+            "turkmen": [
+                "fa-AF",
+                "uz-AF"
+            ],
+            "uzbek": [
+                "fa-AF",
+                "uz-AF"
+            ]
+        }
+    },
+    "al": {
+        "name": "albania",
+        "user_fraction": 0.04181908570029066,
+        "referers": [
+            "https://www.google.com",
+            "https://www.yahoo.com",
+            "https://www.google.al"
+        ],
+        "languages": {
+            "albanian": [
+                "sq",
+                "sq-AL"
+            ],
+            "aromanian": [
+                "sq-AL"
+            ],
+            "greek": [
+                "sq-AL",
+                "el"
+            ],
+            "italian": [
+                "sq-AL",
+                "it"
+            ],
+            "macedonian": [
+                "sq-AL",
+                "mk"
+            ]
+        }
+    },
+    "dz": {
+        "name": "algeria",
+        "user_fraction": 0.5233992759373473,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.dz",
+            "https://www.yahoo.com",
+            "https://www.google.fr",
+            "https://www.bing.com"
+        ],
+        "languages": {
+            "arabic": [
+                "ar-DZ",
+                "fr-DZ"
+            ],
+            "tamazight": [
+                "ar-DZ",
+                "fr-DZ"
+            ]
+        }
+    },
+    "ad": {
+        "name": "andorra",
+        "user_fraction": 0.0015115016281765632,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "catalan": [
+                "ca-AD",
+                "ca"
+            ],
+            "french": [
+                "fr",
+                "ca-AD"
+            ],
+            "portuguese": [
+                "ca-AD",
+                "pt"
+            ],
+            "spanish": [
+                "es",
+                "ca-AD"
+            ]
+        }
+    },
+    "ao": {
+        "name": "angola",
+        "user_fraction": 0.08483742116470722,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "kimbundu": [
+                "pt-AO",
+                "ln-AO"
+            ],
+            "portuguese": [
+                "pt-AO",
+                "ln-AO"
+            ],
+            "umbundu": [
+                "pt-AO",
+                "ln-AO"
+            ]
+        }
+    },
+    "ag": {
+        "name": "antigua and barbuda",
+        "user_fraction": 0.001539985672263628,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "english": [
+                "en-AG",
+                "en"
+            ]
+        }
+    },
+    "ar": {
+        "name": "argentina",
+        "user_fraction": 0.6666512940227337,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.com.ar",
+            "https://www.yahoo.com",
+            "https://www.daum.net",
+            "https://www.naver.com",
+            "https://www.bing.com"
+        ],
+        "languages": {
+            "guarani": [
+                "es-AR"
+            ],
+            "kom": [
+                "es-AR"
+            ],
+            "moquoit": [
+                "es-AR"
+            ],
+            "spanish": [
+                "es",
+                "es-AR"
+            ],
+            "wichi": [
+                "es-AR"
+            ]
+        }
+    },
+    "am": {
+        "name": "armenia",
+        "user_fraction": 0.040583009285022904,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.ru",
+            "https://www.yandex.ru",
+            "https://www.google.am",
+            "https://www.yahoo.com"
+        ],
+        "languages": {
+            "armenian": [
+                "hy-AM",
+                "hy"
+            ]
+        }
+    },
+    "au": {
+        "name": "australia",
+        "user_fraction": 0.4202988550355005,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.com.au",
+            "https://www.yahoo.com",
+            "https://www.bing.com",
+            "http://www.webwombat.com.au"
+        ],
+        "languages": {
+            "english": [
+                "en-AU",
+                "en"
+            ],
+            "norfuk": [
+                "en-AU"
+            ]
+        }
+    },
+    "at": {
+        "name": "austria",
+        "user_fraction": 0.1525894015780583,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.at",
+            "https://www.yahoo.com",
+            "https://www.google.de",
+            "https://www.duckduckgo.com",
+            "http://www.centil-europe.at"
+        ],
+        "languages": {
+            "croatian": [
+                "de-AT"
+            ],
+            "czech": [
+                "de-AT",
+                "cs"
+            ],
+            "german": [
+                "de-AT",
+                "de"
+            ],
+            "hungarian": [
+                "hu",
+                "de-AT"
+            ],
+            "romani": [
+                "de-AT"
+            ],
+            "serbian": [
+                "de-AT",
+                "sr"
+            ],
+            "slovene": [
+                "de-AT"
+            ]
+        }
+    },
+    "az": {
+        "name": "azerbaijan",
+        "user_fraction": 0.15421497842603404,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.az",
+            "https://www.yahoo.com",
+            "https://www.google.ru",
+            "https://www.yandex.ru",
+            "https://www.google.co.jp",
+            "https://www.yahoo.co.jp"
+        ],
+        "languages": {
+            "azerbaijani": [
+                "az-AZ",
+                "az"
+            ]
+        }
+    },
+    "bs": {
+        "name": "bahamas",
+        "user_fraction": 0.006675217854788505,
+        "referers": [
+            "https://www.google.com",
+            "https://www.yahoo.com",
+            "https://www.bing.com",
+            "https://www.google.bs"
+        ],
+        "languages": {
+            "english": [
+                "en",
+                "en-BS"
+            ]
+        }
+    },
+    "bh": {
+        "name": "bahrain",
+        "user_fraction": 0.02842624173818514,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.com.bh",
+            "https://www.yahoo.com"
+        ],
+        "languages": {
+            "arabic": [
+                "ar-BH",
+                "ar"
+            ],
+            "english": [
+                "en",
+                "ar-BH"
+            ]
+        }
+    },
+    "bd": {
+        "name": "bangladesh",
+        "user_fraction": 2.5069534199640455,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.com.bd",
+            "https://www.yahoo.com"
+        ],
+        "languages": {
+            "bengali": [
+                "bn",
+                "bn-BD"
+            ],
+            "english": [
+                "en",
+                "bn-BD"
+            ],
+            "sylheti": [
+                "bn-BD"
+            ]
+        }
+    },
+    "bb": {
+        "name": "barbados",
+        "user_fraction": 0.004640158043873552,
+        "referers": [
+            "https://www.google.com",
+            "https://www.yahoo.com",
+            "https://www.bing.com"
+        ],
+        "languages": {
+            "english": [
+                "en",
+                "en-BB"
+            ]
+        }
+    },
+    "by": {
+        "name": "belarus",
+        "user_fraction": 0.140001480153289,
+        "referers": [
+            "https://www.google.com",
+            "https://www.yandex.by",
+            "https://www.yandex.ru",
+            "https://www.google.by",
+            "https://www.google.ru",
+            "https://www.rambler.ru"
+        ],
+        "languages": {
+            "belarusian": [
+                "ru-BY",
+                "be-BY"
+            ],
+            "russian": [
+                "ru-BY",
+                "be-BY"
+            ]
+        }
+    },
+    "be": {
+        "name": "belgium",
+        "user_fraction": 0.19905543858796715,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.be",
+            "https://www.yahoo.com",
+            "https://www.bing.com",
+            "http://www.jaan.be"
+        ],
+        "languages": {
+            "dutch": [
+                "nl-BE",
+                "de-BE"
+            ],
+            "french": [
+                "nl-BE",
+                "de-BE"
+            ],
+            "german": [
+                "nl-BE",
+                "de-BE"
+            ],
+            "spanish": [
+                "nl-BE",
+                "en-BE"
+            ]
+        }
+    },
+    "bz": {
+        "name": "belize",
+        "user_fraction": 0.0035038949630113118,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "english": [
+                "en-BZ",
+                "en"
+            ]
+        }
+    },
+    "bj": {
+        "name": "benin",
+        "user_fraction": 0.03134452541265053,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "french": [
+                "fr-BJ",
+                "fr"
+            ]
+        }
+    },
+    "bt": {
+        "name": "bhutan",
+        "user_fraction": 0.0077177259230350225,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "dzongkha": [
+                "dz",
+                "dz-BT"
+            ]
+        }
+    },
+    "bo": {
+        "name": "bolivia",
+        "user_fraction": 0.09621639951048697,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.com.bo",
+            "https://www.yahoo.com",
+            "https://www.google.es"
+        ],
+        "languages": {
+            "araona": [
+                "qu-BO",
+                "es-BO"
+            ],
+            "aymara": [
+                "qu-BO",
+                "es-BO"
+            ],
+            "baure": [
+                "qu-BO",
+                "es-BO"
+            ],
+            "besiro": [
+                "qu-BO",
+                "es-BO"
+            ],
+            "spanish": [
+                "qu-BO",
+                "es-BO"
+            ]
+        }
+    },
+    "ba": {
+        "name": "bosnia and herzegovina",
+        "user_fraction": 0.0460829723026431,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.ba",
+            "https://www.yahoo.com"
+        ],
+        "languages": {
+            "bosnian": [
+                "sh-BA",
+                "bs-BA"
+            ],
+            "croatian": [
+                "sh-BA",
+                "bs-BA"
+            ],
+            "serbian": [
+                "sr",
+                "sh-BA"
+            ]
+        }
+    },
+    "bw": {
+        "name": "botswana",
+        "user_fraction": 0.01884986241674368,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "english": [
+                "en-BW",
+                "en"
+            ],
+            "tswana": [
+                "en-BW"
+            ]
+        }
+    },
+    "br": {
+        "name": "brazil",
+        "user_fraction": 3.2834117765633204,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.com.br",
+            "https://www.yahoo.com",
+            "http://www.buscar.com.br",
+            "http://busca.uol.com.br"
+        ],
+        "languages": {
+            "german": [
+                "de",
+                "pt-BR"
+            ],
+            "portuguese": [
+                "pt-BR",
+                "pt"
+            ]
+        }
+    },
+    "bg": {
+        "name": "bulgaria",
+        "user_fraction": 0.08923264423812219,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.bg",
+            "https://www.yahoo.com",
+            "http://diri.bg"
+        ],
+        "languages": {
+            "bulgarian": [
+                "bg-BG",
+                "bg"
+            ]
+        }
+    },
+    "bf": {
+        "name": "burkina faso",
+        "user_fraction": 0.06054168363274855,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "french": [
+                "fr",
+                "fr-BF"
+            ],
+            "swahili": [
+                "sw",
+                "fr-BF"
+            ]
+        }
+    },
+    "bi": {
+        "name": "burundi",
+        "user_fraction": 0.012063231031073485,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "english": [
+                "fr-BI",
+                "en"
+            ],
+            "french": [
+                "fr-BI",
+                "fr"
+            ],
+            "kirundi": [
+                "fr-BI",
+                "rn-BI"
+            ]
+        }
+    },
+    "kh": {
+        "name": "cambodia",
+        "user_fraction": 0.10809291505033422,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.co.id",
+            "https://www.yahoo.com",
+            "https://www.google.com.kh"
+        ],
+        "languages": {
+            "khmer": [
+                "km-KH",
+                "km"
+            ]
+        }
+    },
+    "cm": {
+        "name": "cameroon",
+        "user_fraction": 0.1108467301857195,
+        "referers": [
+            "https://www.google.com",
+            "https://www.yahoo.com",
+            "https://www.google.cm",
+            "https://www.google.fr",
+            "https://www.bing.com"
+        ],
+        "languages": {
+            "english": [
+                "ff-CM",
+                "en"
+            ],
+            "french": [
+                "ff-CM",
+                "fr"
+            ]
+        }
+    },
+    "ca": {
+        "name": "canada",
+        "user_fraction": 0.6743732905660468,
+        "referers": [
+            "https://www.google.com",
+            "https://www.yahoo.com",
+            "https://www.google.ca",
+            "https://www.indeed.com",
+            "https://www.bing.com",
+            "https://www.realtor.ca"
+        ],
+        "languages": {
+            "english": [
+                "en",
+                "en-CA"
+            ],
+            "french": [
+                "fr",
+                "en-CA"
+            ],
+            "slavey": [
+                "en-CA",
+                "fr-CA"
+            ]
+        }
+    },
+    "td": {
+        "name": "chad",
+        "user_fraction": 0.01923765460134045,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "arabic": [
+                "fr-TD",
+                "ar"
+            ],
+            "french": [
+                "fr-TD",
+                "fr"
+            ]
+        }
+    },
+    "cl": {
+        "name": "chile",
+        "user_fraction": 0.2952578940266625,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.cl",
+            "https://www.yahoo.com"
+        ],
+        "languages": {
+            "chilean spanish": [
+                "es-CL"
+            ]
+        }
+    },
+    "cn": {
+        "name": "china",
+        "user_fraction": 20.879161856120806,
+        "referers": [
+            "https://www.baidu.com",
+            "https://www.google.com.hk",
+            "https://www.sogou.com",
+            "https://www.google.cn",
+            "https://www.google.com",
+            "https://www.bing.com",
+            "http://www.antso.cn"
+        ],
+        "languages": {
+            "english": [
+                "zh-CN",
+                "ug-CN"
+            ],
+            "kazakh": [
+                "zh-CN",
+                "kk"
+            ],
+            "korean": [
+                "zh-CN",
+                "ko"
+            ],
+            "mongolian": [
+                "zh-CN",
+                "ug-CN"
+            ],
+            "portuguese": [
+                "zh-CN",
+                "pt"
+            ],
+            "standard chinese": [
+                "ii-CN",
+                "ug-CN"
+            ],
+            "tibetan": [
+                "zh-CN",
+                "ug-CN"
+            ]
+        }
+    },
+    "co": {
+        "name": "colombia",
+        "user_fraction": 0.6067906253492076,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.com.co",
+            "https://www.yahoo.com",
+            "https://www.google.es"
+        ],
+        "languages": {
+            "spanish": [
+                "es-CO",
+                "es"
+            ]
+        }
+    },
+    "km": {
+        "name": "comoros",
+        "user_fraction": 0.0013709684260036323,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "arabic": [
+                "ar-KM",
+                "fr-KM"
+            ],
+            "comorian": [
+                "ar-KM",
+                "fr-KM"
+            ],
+            "french": [
+                "ar-KM",
+                "fr-KM"
+            ]
+        }
+    },
+    "cd": {
+        "name": "congo",
+        "user_fraction": 0.009038916793611749,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "french": [
+                "fr"
+            ],
+            "swahili": [
+                "sw"
+            ]
+        }
+    },
+    "cr": {
+        "name": "costa rica",
+        "user_fraction": 0.06975112728723021,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.co.cr",
+            "https://www.yahoo.com",
+            "https://www.bing.com"
+        ],
+        "languages": {
+            "spanish": [
+                "es",
+                "es-CR"
+            ]
+        }
+    },
+    "hr": {
+        "name": "croatia",
+        "user_fraction": 0.055836989564301165,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.hr",
+            "https://www.yahoo.com"
+        ],
+        "languages": {
+            "croatian": [
+                "hr-HR",
+                "hr"
+            ],
+            "czech": [
+                "hr-HR",
+                "cs"
+            ],
+            "hungarian": [
+                "hu",
+                "hr-HR"
+            ],
+            "italian": [
+                "hr-HR",
+                "it"
+            ],
+            "romanian": [
+                "hr-HR",
+                "ro"
+            ],
+            "serbian": [
+                "hr-HR",
+                "sr"
+            ],
+            "slovak": [
+                "hr-HR",
+                "sk"
+            ],
+            "slovene": [
+                "hr-HR"
+            ]
+        }
+    },
+    "cu": {
+        "name": "cuba",
+        "user_fraction": 0.11200855739819963,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "spanish": [
+                "es",
+                "es-CU"
+            ]
+        }
+    },
+    "cy": {
+        "name": "cyprus",
+        "user_fraction": 0.018917238900386164,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "armenian": [
+                "el-CY",
+                "tr-CY"
+            ],
+            "english": [
+                "el-CY",
+                "en"
+            ],
+            "greek": [
+                "el-CY",
+                "tr-CY"
+            ],
+            "turkish": [
+                "el-CY",
+                "tr"
+            ]
+        }
+    },
+    "cz": {
+        "name": "czech republic",
+        "user_fraction": 0.16603234090919283,
+        "referers": [
+            "https://www.google.com",
+            "https://www.seznam.cz",
+            "https://www.google.cz",
+            "https://www.yahoo.com",
+            "https://www.google.ru",
+            "https://www.yandex.ru",
+            "http://jyxo.cz",
+            "http://www.klaboseni.cz",
+            "http://www.seznam.cz"
+        ],
+        "languages": {
+            "belarusian": [
+                "be",
+                "cs-CZ"
+            ],
+            "bulgarian": [
+                "bg",
+                "cs-CZ"
+            ],
+            "croatian": [
+                "hr",
+                "cs-CZ"
+            ],
+            "czech": [
+                "cs-CZ",
+                "cs"
+            ],
+            "german": [
+                "de",
+                "cs-CZ"
+            ],
+            "greek": [
+                "cs-CZ",
+                "el"
+            ],
+            "hungarian": [
+                "hu",
+                "cs-CZ"
+            ],
+            "polish": [
+                "cs-CZ",
+                "pl"
+            ],
+            "romani": [
+                "cs-CZ"
+            ],
+            "russian": [
+                "ru",
+                "cs-CZ"
+            ],
+            "rusyn": [
+                "cs-CZ"
+            ],
+            "serbian": [
+                "sr",
+                "cs-CZ"
+            ],
+            "slovak": [
+                "sk",
+                "cs-CZ"
+            ],
+            "ukrainian": [
+                "uk",
+                "cs-CZ"
+            ],
+            "vietnamese": [
+                "vi",
+                "cs-CZ"
+            ]
+        }
+    },
+    "dk": {
+        "name": "denmark",
+        "user_fraction": 0.10740665616667733,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.dk",
+            "https://www.yahoo.com",
+            "http://soeg.jubii.dk"
+        ],
+        "languages": {
+            "danish": [
+                "da",
+                "da-DK"
+            ],
+            "english": [
+                "en",
+                "da-DK"
+            ],
+            "faroese": [
+                "da-DK",
+                "fo"
+            ]
+        }
+    },
+    "dj": {
+        "name": "djibouti",
+        "user_fraction": 0.010584166253659946,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "arabic": [
+                "ar-DJ",
+                "fr-DJ"
+            ],
+            "french": [
+                "ar-DJ",
+                "fr"
+            ]
+        }
+    },
+    "dm": {
+        "name": "dominica",
+        "user_fraction": 0.0010223070411638502,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "english": [
+                "en-DM",
+                "en"
+            ]
+        }
+    },
+    "do": {
+        "name": "dominican republic",
+        "user_fraction": 0.1389932363640175,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.com.do",
+            "https://www.yahoo.com",
+            "https://www.google.es"
+        ],
+        "languages": {
+            "spanish": [
+                "es",
+                "es-DO"
+            ]
+        }
+    },
+    "ec": {
+        "name": "ecuador",
+        "user_fraction": 0.18912006893961805,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.com.ec",
+            "https://www.yahoo.com",
+            "https://www.google.es"
+        ],
+        "languages": {
+            "quechua": [
+                "qu-EC",
+                "qu"
+            ],
+            "spanish": [
+                "qu-EC",
+                "es"
+            ]
+        }
+    },
+    "eg": {
+        "name": "egypt",
+        "user_fraction": 1.0873225868731802,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.com.eg",
+            "https://www.yahoo.com"
+        ],
+        "languages": {
+            "arabic": [
+                "ar-EG",
+                "ar"
+            ]
+        }
+    },
+    "sv": {
+        "name": "el salvador",
+        "user_fraction": 0.039589226014646386,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.com.sv",
+            "https://www.yahoo.com",
+            "https://www.bing.com"
+        ],
+        "languages": {
+            "spanish": [
+                "es-SV",
+                "es"
+            ]
+        }
+    },
+    "gq": {
+        "name": "equatorial guinea",
+        "user_fraction": 0.00660738451409302,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "french": [
+                "fr",
+                "fr-GQ"
+            ],
+            "portuguese": [
+                "fr-GQ",
+                "es-GQ"
+            ],
+            "spanish": [
+                "es",
+                "fr-GQ"
+            ]
+        }
+    },
+    "er": {
+        "name": "eritrea",
+        "user_fraction": 0.001318966175362115,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "arabic": [
+                "ar-ER",
+                "ti-ER"
+            ],
+            "italian": [
+                "ar-ER",
+                "ti-ER"
+            ],
+            "russian": [
+                "ar-ER",
+                "ti-ER"
+            ],
+            "tigrinya": [
+                "ar-ER",
+                "ti-ER"
+            ]
+        }
+    },
+    "ee": {
+        "name": "estonia",
+        "user_fraction": 0.022918055293610937,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.ee",
+            "https://www.google.ru",
+            "https://www.yandex.ru",
+            "https://www.rambler.ru",
+            "https://www.yahoo.com"
+        ],
+        "languages": {
+            "estonian": [
+                "et-EE",
+                "et"
+            ]
+        }
+    },
+    "sz": {
+        "name": "eswatini",
+        "user_fraction": 0.008228948965342405,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "english": [
+                "en"
+            ]
+        }
+    },
+    "et": {
+        "name": "ethiopia",
+        "user_fraction": 0.3881909413506366,
+        "referers": [
+            "https://www.google.com",
+            "https://www.yahoo.com",
+            "https://www.google.com.et",
+            "https://www.bing.com"
+        ],
+        "languages": {
+            "afar": [
+                "ti-ET",
+                "om-ET"
+            ],
+            "amharic": [
+                "om-ET",
+                "am"
+            ],
+            "oromo": [
+                "om-ET",
+                "ti-ET"
+            ],
+            "somali": [
+                "om-ET",
+                "ti-ET"
+            ],
+            "tigrinya": [
+                "om-ET",
+                "ti-ET"
+            ]
+        }
+    },
+    "fj": {
+        "name": "fiji",
+        "user_fraction": 0.008987748803675711,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "english": [
+                "en",
+                "en-FJ"
+            ],
+            "fiji hindi": [
+                "en-FJ"
+            ],
+            "fijian": [
+                "en-FJ"
+            ]
+        }
+    },
+    "fi": {
+        "name": "finland",
+        "user_fraction": 0.09596322124972426,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.fi",
+            "https://www.yahoo.com",
+            "https://www.google.ru",
+            "https://www.yandex.ru"
+        ],
+        "languages": {
+            "finnish": [
+                "se-FI",
+                "sv-FI"
+            ],
+            "swedish": [
+                "se-FI",
+                "sv-FI"
+            ]
+        }
+    },
+    "fr": {
+        "name": "france",
+        "user_fraction": 1.1812734322578384,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.fr",
+            "https://www.yahoo.com",
+            "https://www.bing.com",
+            "https://www.ecosia.org",
+            "http://www.babygo.fr",
+            "http://www.doona.fr",
+            "http://www.infoseek.fr",
+            "http://www.seek.fr",
+            "http://www.voila.fr"
+        ],
+        "languages": {
+            "basque": [
+                "fr-FR",
+                "br-FR"
+            ],
+            "breton": [
+                "fr-FR",
+                "br-FR"
+            ],
+            "corsican": [
+                "fr-FR",
+                "br-FR"
+            ],
+            "french": [
+                "fr-FR",
+                "fr"
+            ]
+        }
+    },
+    "ga": {
+        "name": "gabon",
+        "user_fraction": 0.020657884135667597,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "french": [
+                "fr",
+                "fr-GA"
+            ]
+        }
+    },
+    "gm": {
+        "name": "gambia",
+        "user_fraction": 0.008278110756915268,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "english": [
+                "en",
+                "en-GM"
+            ]
+        }
+    },
+    "ge": {
+        "name": "georgia",
+        "user_fraction": 0.0684596917151489,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.ge",
+            "https://www.yahoo.com",
+            "https://www.google.ru"
+        ],
+        "languages": {
+            "georgian": [
+                "os-GE",
+                "ka-GE"
+            ]
+        }
+    },
+    "de": {
+        "name": "germany",
+        "user_fraction": 1.545257504705,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.de",
+            "https://www.yahoo.com",
+            "https://www.bing.com",
+            "https://www.yandex.ru",
+            "http://www.pixolu.de",
+            "http://searchco.de",
+            "http://www.tripat.de",
+            "http://www.oeko-anbieter.de",
+            "http://www.acoon.de",
+            "http://www.blinde-kuh.de",
+            "http://www.clewwa.de",
+            "http://www.deligoo.de",
+            "http://www.deutscheseiten.de",
+            "http://www.die-kraehe.de",
+            "http://www.discounto.de",
+            "http://www.fastbot.de",
+            "http://www.financiero.de",
+            "http://www.fireball.de",
+            "http://www.iwwb.de",
+            "http://www.lixam.de",
+            "http://metager.de"
+        ],
+        "languages": {
+            "danish": [
+                "da",
+                "de-DE"
+            ],
+            "german": [
+                "de-DE",
+                "de"
+            ],
+            "romani": [
+                "de-DE"
+            ]
+        }
+    },
+    "gh": {
+        "name": "ghana",
+        "user_fraction": 0.299252115787644,
+        "referers": [
+            "https://www.google.com",
+            "https://www.yahoo.com",
+            "https://www.google.com.gh"
+        ],
+        "languages": {
+            "english": [
+                "ee-GH",
+                "ak-GH"
+            ]
+        }
+    },
+    "gr": {
+        "name": "greece",
+        "user_fraction": 0.15738602323090942,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.gr",
+            "https://www.yahoo.com",
+            "http://www.anazitisis.gr",
+            "http://www.visto.gr"
+        ],
+        "languages": {
+            "greek": [
+                "el-GR",
+                "el"
+            ]
+        }
+    },
+    "gd": {
+        "name": "grenada",
+        "user_fraction": 0.0012651364965085966,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "english": [
+                "en",
+                "en-GD"
+            ]
+        }
+    },
+    "gt": {
+        "name": "guatemala",
+        "user_fraction": 0.23339436403278296,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.com.gt",
+            "https://www.yahoo.com"
+        ],
+        "languages": {
+            "spanish": [
+                "es",
+                "es-GT"
+            ]
+        }
+    },
+    "gn": {
+        "name": "guinea",
+        "user_fraction": 0.02879705075842037,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "french": [
+                "fr-GN",
+                "fr"
+            ]
+        }
+    },
+    "gw": {
+        "name": "guinea-bissau",
+        "user_fraction": 0.0014529643353421281,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "portuguese": [
+                "pt-GW",
+                "pt"
+            ]
+        }
+    },
+    "gy": {
+        "name": "guyana",
+        "user_fraction": 0.005767820294129306,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "english": [
+                "en",
+                "en-GY"
+            ]
+        }
+    },
+    "ht": {
+        "name": "haiti",
+        "user_fraction": 0.02689469798972695,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "french": [
+                "fr",
+                "fr-HT"
+            ],
+            "haitian creole": [
+                "fr-HT"
+            ]
+        }
+    },
+    "hn": {
+        "name": "honduras",
+        "user_fraction": 0.05914894497500194,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "english": [
+                "en",
+                "es-HN"
+            ],
+            "spanish": [
+                "es",
+                "es-HN"
+            ]
+        }
+    },
+    "hu": {
+        "name": "hungary",
+        "user_fraction": 0.1482063547382733,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.hu",
+            "https://www.yahoo.com",
+            "http://forumkereso.hu",
+            "http://www.gizike.hu",
+            "http://www.johu.hu",
+            "http://lapozz.hu",
+            "http://www.ok.hu",
+            "http://kereso.wyw.hu"
+        ],
+        "languages": {
+            "croatian": [
+                "hu-HU",
+                "hr"
+            ],
+            "german": [
+                "hu-HU",
+                "de"
+            ],
+            "hungarian": [
+                "hu-HU",
+                "hu"
+            ],
+            "romanian": [
+                "hu-HU",
+                "ro"
+            ],
+            "serbian": [
+                "hu-HU",
+                "sr"
+            ],
+            "slovak": [
+                "hu-HU",
+                "sk"
+            ],
+            "slovene": [
+                "hu-HU"
+            ]
+        }
+    },
+    "is": {
+        "name": "iceland",
+        "user_fraction": 0.00653893540954349,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com",
+            "http://foofind.is",
+            "http://www.leit.is"
+        ],
+        "languages": {
+            "icelandic": [
+                "is-IS",
+                "is"
+            ]
+        }
+    },
+    "in": {
+        "name": "india",
+        "user_fraction": 16.622843190168062,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.co.in",
+            "https://www.yahoo.com",
+            "https://www.naukri.com",
+            "https://www.bing.com"
+        ],
+        "languages": {
+            "english": [
+                "bn-IN",
+                "bo-IN"
+            ],
+            "hindi": [
+                "bn-IN",
+                "bo-IN"
+            ]
+        }
+    },
+    "id": {
+        "name": "indonesia",
+        "user_fraction": 3.8932166255681238,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.co.id",
+            "https://www.yahoo.com"
+        ],
+        "languages": {
+            "indonesian": [
+                "id-ID",
+                "id"
+            ],
+            "javanese": [
+                "id-ID"
+            ],
+            "madurese": [
+                "id-ID"
+            ],
+            "malay": [
+                "ms",
+                "id-ID"
+            ],
+            "sundanese": [
+                "id-ID"
+            ]
+        }
+    },
+    "ir": {
+        "name": "iran",
+        "user_fraction": 1.551062727687425,
+        "referers": [
+            "https://www.google.com",
+            "https://www.yahoo.com",
+            "http://salam.ir"
+        ],
+        "languages": {
+            "arabic": [
+                "fa-IR",
+                "ar"
+            ],
+            "azerbaijani": [
+                "fa-IR",
+                "az"
+            ],
+            "balochi": [
+                "fa-IR"
+            ],
+            "gilaki": [
+                "fa-IR"
+            ],
+            "kurdish": [
+                "fa-IR"
+            ],
+            "luri": [
+                "fa-IR"
+            ],
+            "mazanderani": [
+                "fa-IR"
+            ],
+            "persian": [
+                "fa-IR",
+                "fa"
+            ],
+            "qashqai": [
+                "fa-IR"
+            ],
+            "tati": [
+                "fa-IR"
+            ],
+            "turkmeni": [
+                "fa-IR"
+            ]
+        }
+    },
+    "iq": {
+        "name": "iraq",
+        "user_fraction": 0.37526538270034987,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.iq",
+            "https://www.yahoo.com",
+            "https://www.bing.com"
+        ],
+        "languages": {
+            "arabic": [
+                "ar-IQ",
+                "ar"
+            ],
+            "armenian": [
+                "hy",
+                "ar-IQ"
+            ],
+            "iraqi": [
+                "ar-IQ"
+            ],
+            "kurdish": [
+                "ar-IQ"
+            ]
+        }
+    },
+    "ie": {
+        "name": "ireland",
+        "user_fraction": 0.07994108549420124,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.ie",
+            "https://www.yahoo.com"
+        ],
+        "languages": {
+            "english": [
+                "en",
+                "ga-IE"
+            ],
+            "irish": [
+                "ga",
+                "ga-IE"
+            ]
+        }
+    },
+    "il": {
+        "name": "israel",
+        "user_fraction": 0.1348470599745381,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.co.il",
+            "https://www.yahoo.com",
+            "http://www.walla.co.il"
+        ],
+        "languages": {
+            "arabic": [
+                "he-IL",
+                "ar-IL"
+            ],
+            "english": [
+                "he-IL",
+                "ar-IL"
+            ],
+            "hebrew": [
+                "he",
+                "he-IL"
+            ],
+            "russian": [
+                "he-IL",
+                "ar-IL"
+            ]
+        }
+    },
+    "it": {
+        "name": "italy",
+        "user_fraction": 1.0038937155929235,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.it",
+            "https://www.yahoo.com",
+            "https://www.bing.com",
+            "http://www.nihilscio.it",
+            "http://qrobe.it",
+            "http://www.iltrovatore.it",
+            "http://arianna.libero.it",
+            "http://www.virgilio.it",
+            "http://www.trovando.it"
+        ],
+        "languages": {
+            "albanian": [
+                "sq",
+                "ca-IT"
+            ],
+            "corsican": [
+                "ca-IT",
+                "it-IT"
+            ],
+            "french": [
+                "fr",
+                "ca-IT"
+            ],
+            "german": [
+                "ca-IT",
+                "de"
+            ],
+            "greek": [
+                "ca-IT",
+                "el"
+            ],
+            "italian": [
+                "ca-IT",
+                "it"
+            ],
+            "sardinian": [
+                "ca-IT",
+                "it-IT"
+            ],
+            "slovene": [
+                "ca-IT",
+                "it-IT"
+            ]
+        }
+    },
+    "jm": {
+        "name": "jamaica",
+        "user_fraction": 0.02800509898871934,
+        "referers": [
+            "https://www.google.com",
+            "https://www.yahoo.com",
+            "https://www.bing.com",
+            "https://www.google.com.jm"
+        ],
+        "languages": {
+            "english": [
+                "en",
+                "en-JM"
+            ]
+        }
+    },
+    "jp": {
+        "name": "japan",
+        "user_fraction": 2.331957305314784,
+        "referers": [
+            "https://www.google.com",
+            "https://www.yahoo.co.jp",
+            "https://www.google.co.jp",
+            "https://www.yahoo.com",
+            "https://www.google.com.sg",
+            "https://www.baidu.com",
+            "https://www.bing.com",
+            "http://www.biglobe.ne.jp",
+            "http://www.ceek.jp",
+            "http://goo.ne.jp",
+            "http://spysee.jp"
+        ],
+        "languages": {
+            "japanese": [
+                "ja-JP",
+                "ja"
+            ]
+        }
+    },
+    "jo": {
+        "name": "jordan",
+        "user_fraction": 0.12871852124203984,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.jo",
+            "https://www.yahoo.com"
+        ],
+        "languages": {
+            "arabic": [
+                "ar-JO",
+                "ar"
+            ],
+            "armenian": [
+                "hy",
+                "ar-JO"
+            ]
+        }
+    },
+    "kz": {
+        "name": "kazakhstan",
+        "user_fraction": 0.27637267484668665,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.kz",
+            "https://www.yandex.kz",
+            "https://www.google.ru",
+            "https://www.yandex.ru"
+        ],
+        "languages": {
+            "kazakh": [
+                "kk-KZ",
+                "kk"
+            ],
+            "russian": [
+                "kk-KZ",
+                "ru"
+            ]
+        }
+    },
+    "ke": {
+        "name": "kenya",
+        "user_fraction": 0.17601877923072728,
+        "referers": [
+            "https://www.google.com",
+            "https://www.yahoo.com",
+            "https://www.google.co.ke",
+            "https://www.bing.com"
+        ],
+        "languages": {
+            "english": [
+                "en-KE",
+                "en"
+            ],
+            "swahili": [
+                "en-KE",
+                "om-KE"
+            ]
+        }
+    },
+    "ki": {
+        "name": "kiribati",
+        "user_fraction": 0.00033710091506386036,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "english": [
+                "en-KI",
+                "en"
+            ]
+        }
+    },
+    "kw": {
+        "name": "kuwait",
+        "user_fraction": 0.08052198916876624,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.com.kw",
+            "https://www.yahoo.com",
+            "https://www.bing.com"
+        ],
+        "languages": {
+            "arabic": [
+                "ar-KW",
+                "ar"
+            ],
+            "kyrgyz": [
+                "ar-KW",
+                "ky"
+            ],
+            "persian": [
+                "ar-KW",
+                "fa"
+            ]
+        }
+    },
+    "kg": {
+        "name": "kyrgyzstan",
+        "user_fraction": 0.04586914333848881,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.ru",
+            "https://www.yandex.ru",
+            "https://www.google.kg",
+            "https://www.rambler.ru"
+        ],
+        "languages": {
+            "kyrgyz": [
+                "ru-KG",
+                "ky-KG"
+            ],
+            "russian": [
+                "ru-KG",
+                "ky-KG"
+            ]
+        }
+    },
+    "lv": {
+        "name": "latvia",
+        "user_fraction": 0.03149276559467408,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.lv",
+            "https://www.google.ru",
+            "https://www.yandex.ru",
+            "https://www.rambler.ru"
+        ],
+        "languages": {
+            "latvian": [
+                "lv",
+                "lv-LV"
+            ]
+        }
+    },
+    "lb": {
+        "name": "lebanon",
+        "user_fraction": 0.09445394431676231,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.com.lb",
+            "https://www.yahoo.com"
+        ],
+        "languages": {
+            "arabic": [
+                "ar-LB",
+                "ar"
+            ],
+            "armenian": [
+                "hy",
+                "ar-LB"
+            ],
+            "english": [
+                "en",
+                "ar-LB"
+            ],
+            "french": [
+                "fr",
+                "ar-LB"
+            ],
+            "russian": [
+                "ru",
+                "ar-LB"
+            ]
+        }
+    },
+    "ls": {
+        "name": "lesotho",
+        "user_fraction": 0.013215325201989692,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "english": [
+                "en-LS",
+                "en"
+            ],
+            "sotho": [
+                "en-LS"
+            ]
+        }
+    },
+    "lr": {
+        "name": "liberia",
+        "user_fraction": 0.007500540052708687,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "english": [
+                "en-LR",
+                "en"
+            ]
+        }
+    },
+    "ly": {
+        "name": "libya",
+        "user_fraction": 0.027552770779548746,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.com.ly",
+            "https://www.yahoo.com",
+            "https://www.bing.com"
+        ],
+        "languages": {
+            "arabic": [
+                "ar-LY",
+                "ar"
+            ]
+        }
+    },
+    "li": {
+        "name": "liechtenstein",
+        "user_fraction": 0.000738936488202856,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "german": [
+                "de-LI",
+                "de"
+            ]
+        }
+    },
+    "lt": {
+        "name": "lithuania",
+        "user_fraction": 0.04456239312345692,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.lt",
+            "https://www.google.ru",
+            "https://www.yandex.ru",
+            "http://search.delfi.lt"
+        ],
+        "languages": {
+            "lithuanian": [
+                "lt-LT",
+                "lt"
+            ],
+            "russian": [
+                "ru",
+                "lt-LT"
+            ]
+        }
+    },
+    "lu": {
+        "name": "luxembourg",
+        "user_fraction": 0.011337881074359856,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "french": [
+                "de-LU",
+                "fr-LU"
+            ],
+            "german": [
+                "de-LU",
+                "fr-LU"
+            ],
+            "luxembourgish": [
+                "de-LU",
+                "fr-LU"
+            ]
+        }
+    },
+    "mg": {
+        "name": "madagascar",
+        "user_fraction": 0.04977652253269994,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "french": [
+                "fr-MG",
+                "fr"
+            ],
+            "malagasy": [
+                "fr-MG",
+                "mg"
+            ]
+        }
+    },
+    "mw": {
+        "name": "malawi",
+        "user_fraction": 0.05097185921685014,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "chichewa": [
+                "en-MW"
+            ],
+            "english": [
+                "en",
+                "en-MW"
+            ]
+        }
+    },
+    "my": {
+        "name": "malaysia",
+        "user_fraction": 0.503410488750824,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.com.my",
+            "https://www.yahoo.com",
+            "https://www.baidu.com",
+            "https://www.jobstreet.com.my"
+        ],
+        "languages": {
+            "cantonese": [
+                "en-MY",
+                "ta-MY"
+            ],
+            "chinese": [
+                "en-MY",
+                "ta-MY"
+            ],
+            "malay": [
+                "en-MY",
+                "ms"
+            ]
+        }
+    },
+    "ml": {
+        "name": "mali",
+        "user_fraction": 0.04684850581667063,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "french": [
+                "fr-ML",
+                "fr"
+            ]
+        }
+    },
+    "mt": {
+        "name": "malta",
+        "user_fraction": 0.006852259894501203,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "english": [
+                "mt-MT",
+                "en"
+            ],
+            "maltese": [
+                "mt-MT",
+                "mt"
+            ]
+        }
+    },
+    "mh": {
+        "name": "marshall islands",
+        "user_fraction": 0.00040839047868204405,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "english": [
+                "en",
+                "en-MH"
+            ]
+        }
+    },
+    "mr": {
+        "name": "mauritania",
+        "user_fraction": 0.018262324383235114,
+        "referers": [
+            "https://www.google.com",
+            "https://www.yahoo.com",
+            "https://www.daum.net",
+            "https://www.naver.com",
+            "https://www.google.com.sg"
+        ],
+        "languages": {
+            "arabic": [
+                "ff-MR",
+                "ar-MR"
+            ],
+            "french": [
+                "ff-MR",
+                "fr"
+            ]
+        }
+    },
+    "mu": {
+        "name": "mauritius",
+        "user_fraction": 0.013962167303544467,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.mu",
+            "https://www.yahoo.com",
+            "https://www.google.fr"
+        ],
+        "languages": {
+            "english": [
+                "en",
+                "en-MU"
+            ],
+            "mauritian creole": [
+                "en-MU",
+                "fr-MU"
+            ]
+        }
+    },
+    "mx": {
+        "name": "mexico",
+        "user_fraction": 1.8276268455026687,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.com.mx",
+            "https://www.yahoo.com"
+        ],
+        "languages": {
+            "spanish": [
+                "es",
+                "es-MX"
+            ]
+        }
+    },
+    "md": {
+        "name": "moldova",
+        "user_fraction": 0.06125426145532829,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.ru",
+            "https://www.yandex.ru",
+            "https://www.google.md",
+            "https://www.rambler.ru",
+            "https://www.yahoo.com"
+        ],
+        "languages": {
+            "romanian": [
+                "ro-MD",
+                "ro"
+            ],
+            "russian": [
+                "ro-MD",
+                "ru"
+            ],
+            "ukrainian": [
+                "ro-MD",
+                "ru-MD"
+            ]
+        }
+    },
+    "mc": {
+        "name": "monaco",
+        "user_fraction": 0.0007459283874487743,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "french": [
+                "fr",
+                "fr-MC"
+            ]
+        }
+    },
+    "mn": {
+        "name": "mongolia",
+        "user_fraction": 0.014485069995728555,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.mn",
+            "https://www.yahoo.com"
+        ],
+        "languages": {
+            "mongolian": [
+                "mn",
+                "mn-MN"
+            ]
+        }
+    },
+    "me": {
+        "name": "montenegro",
+        "user_fraction": 0.010032084300134228,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "montenegrin": [
+                "sr-ME"
+            ]
+        }
+    },
+    "ma": {
+        "name": "morocco",
+        "user_fraction": 0.43843905954213364,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.co.ma",
+            "https://www.yahoo.com",
+            "https://www.google.fr"
+        ],
+        "languages": {
+            "arabic": [
+                "fr-MA",
+                "ar-MA"
+            ],
+            "tamazight": [
+                "fr-MA",
+                "ar-MA"
+            ]
+        }
+    },
+    "mz": {
+        "name": "mozambique",
+        "user_fraction": 0.12240227385080882,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "portuguese": [
+                "pt-MZ",
+                "pt"
+            ]
+        }
+    },
+    "nr": {
+        "name": "nauru",
+        "user_fraction": 0.00012861519209466125,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "english": [
+                "en-NR",
+                "en"
+            ],
+            "nauruan": [
+                "en-NR"
+            ]
+        }
+    },
+    "np": {
+        "name": "nepal",
+        "user_fraction": 0.32158763861197925,
+        "referers": [
+            "https://www.google.com",
+            "https://www.yahoo.com",
+            "https://www.google.com.np"
+        ],
+        "languages": {
+            "nepali": [
+                "ne-NP",
+                "ne"
+            ]
+        }
+    },
+    "nl": {
+        "name": "netherlands",
+        "user_fraction": 0.3153802225161129,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.nl",
+            "https://www.yandex.ru",
+            "https://www.yahoo.com",
+            "https://www.google.com.ua",
+            "https://www.google.ru",
+            "https://www.bing.com",
+            "http://www.ilse.nl",
+            "http://www.metaseek.nl",
+            "http://www.vinden.nl",
+            "http://www.zoek.nl"
+        ],
+        "languages": {
+            "dutch": [
+                "nl",
+                "fy-NL"
+            ],
+            "english": [
+                "en",
+                "fy-NL"
+            ],
+            "yiddish": [
+                "yi",
+                "fy-NL"
+            ]
+        }
+    },
+    "nz": {
+        "name": "new zealand",
+        "user_fraction": 0.08488310687000725,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.co.nz",
+            "https://www.yahoo.com"
+        ],
+        "languages": {
+            "english": [
+                "en",
+                "en-NZ"
+            ],
+            "maori": [
+                "en-NZ"
+            ]
+        }
+    },
+    "ni": {
+        "name": "nicaragua",
+        "user_fraction": 0.03440765263626717,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "spanish": [
+                "es-NI",
+                "es"
+            ]
+        }
+    },
+    "ne": {
+        "name": "niger",
+        "user_fraction": 0.04359975558608494,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "arabic": [
+                "ha-NE",
+                "ar"
+            ],
+            "french": [
+                "fr",
+                "ha-NE"
+            ]
+        }
+    },
+    "ng": {
+        "name": "nigeria",
+        "user_fraction": 2.7054524662515087,
+        "referers": [
+            "https://www.google.com",
+            "https://www.yahoo.com",
+            "https://www.google.com.ng",
+            "https://www.bing.com"
+        ],
+        "languages": {
+            "english": [
+                "en-NG",
+                "ig-NG"
+            ]
+        }
+    },
+    "nu": {
+        "name": "niue",
+        "user_fraction": 2.0538704034884897e-05,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "english": [
+                "en-NU",
+                "en"
+            ],
+            "niuean": [
+                "en-NU"
+            ]
+        }
+    },
+    "no": {
+        "name": "norway",
+        "user_fraction": 0.10170482192168137,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.no",
+            "https://www.duckduckgo.com",
+            "http://www.kvasir.no"
+        ],
+        "languages": {
+            "norwegian": [
+                "no",
+                "nn-NO"
+            ]
+        }
+    },
+    "om": {
+        "name": "oman",
+        "user_fraction": 0.07384832065528792,
+        "referers": [
+            "https://www.google.com",
+            "https://www.yahoo.com",
+            "https://www.google.com.om"
+        ],
+        "languages": {
+            "arabic": [
+                "ar-OM",
+                "ar"
+            ]
+        }
+    },
+    "pk": {
+        "name": "pakistan",
+        "user_fraction": 2.5822355169584497,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.com.pk",
+            "https://www.yahoo.com",
+            "https://www.bing.com"
+        ],
+        "languages": {
+            "english": [
+                "ur-PK",
+                "en-PK"
+            ],
+            "urdu": [
+                "ur-PK",
+                "ur"
+            ]
+        }
+    },
+    "ps": {
+        "name": "palestine",
+        "user_fraction": 0.06372782458372306,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "arabic": [
+                "ar"
+            ],
+            "english": [
+                "en"
+            ],
+            "hebrew": [
+                "he"
+            ]
+        }
+    },
+    "pa": {
+        "name": "panama",
+        "user_fraction": 0.047112926733607174,
+        "referers": [
+            "https://www.google.com",
+            "https://www.yahoo.com",
+            "https://www.bing.com",
+            "https://www.google.com.pa"
+        ],
+        "languages": {
+            "spanish": [
+                "es",
+                "es-PA"
+            ]
+        }
+    },
+    "pg": {
+        "name": "papua new guinea",
+        "user_fraction": 0.01837270501991002,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "english": [
+                "en",
+                "en-PG"
+            ]
+        }
+    },
+    "py": {
+        "name": "paraguay",
+        "user_fraction": 0.08263829008171474,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "spanish": [
+                "es-PY",
+                "es"
+            ]
+        }
+    },
+    "pe": {
+        "name": "peru",
+        "user_fraction": 0.3113429370120487,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.com.pe",
+            "https://www.yahoo.com"
+        ],
+        "languages": {
+            "spanish": [
+                "es",
+                "es-PE"
+            ]
+        }
+    },
+    "ph": {
+        "name": "philippines",
+        "user_fraction": 1.450090366801804,
+        "referers": [
+            "https://www.google.com",
+            "https://www.yahoo.com",
+            "https://www.google.com.ph"
+        ],
+        "languages": {
+            "aklanon": [
+                "tl-PH",
+                "en-PH"
+            ],
+            "arabic": [
+                "tl-PH",
+                "en-PH"
+            ],
+            "cebuano": [
+                "tl-PH",
+                "en-PH"
+            ],
+            "chavacano": [
+                "tl-PH",
+                "en-PH"
+            ],
+            "english": [
+                "tl-PH",
+                "en"
+            ],
+            "filipino": [
+                "tl-PH",
+                "en-PH"
+            ],
+            "hiligaynon": [
+                "tl-PH",
+                "en-PH"
+            ],
+            "ibanag": [
+                "tl-PH",
+                "en-PH"
+            ],
+            "ilocano": [
+                "tl-PH",
+                "en-PH"
+            ],
+            "ivatan": [
+                "tl-PH",
+                "en-PH"
+            ],
+            "kapampangan": [
+                "tl-PH",
+                "en-PH"
+            ],
+            "kinaray": [
+                "tl-PH",
+                "en-PH"
+            ],
+            "maguindanao": [
+                "tl-PH",
+                "en-PH"
+            ],
+            "maranao": [
+                "tl-PH",
+                "en-PH"
+            ],
+            "pangasinan": [
+                "tl-PH",
+                "en-PH"
+            ],
+            "sambal": [
+                "tl-PH",
+                "en-PH"
+            ],
+            "spanish": [
+                "es",
+                "tl-PH"
+            ],
+            "tagalog": [
+                "tl-PH",
+                "tl"
+            ],
+            "tausug": [
+                "tl-PH",
+                "en-PH"
+            ],
+            "waray": [
+                "tl-PH",
+                "en-PH"
+            ],
+            "yakan": [
+                "tl-PH",
+                "en-PH"
+            ]
+        }
+    },
+    "pl": {
+        "name": "poland",
+        "user_fraction": 0.6892155035971208,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.pl",
+            "https://www.yahoo.com",
+            "http://www.gooru.pl",
+            "http://www.netsprint.pl"
+        ],
+        "languages": {
+            "armenian": [
+                "hy",
+                "pl-PL"
+            ],
+            "belarusian": [
+                "be",
+                "pl-PL"
+            ],
+            "czech": [
+                "pl-PL",
+                "cs"
+            ],
+            "german": [
+                "de",
+                "pl-PL"
+            ],
+            "hebrew": [
+                "he",
+                "pl-PL"
+            ],
+            "karaim": [
+                "pl-PL"
+            ],
+            "lemko": [
+                "pl-PL"
+            ],
+            "lithuanian": [
+                "pl-PL",
+                "lt"
+            ],
+            "polish": [
+                "pl-PL",
+                "pl"
+            ],
+            "romani": [
+                "pl-PL"
+            ],
+            "russian": [
+                "ru",
+                "pl-PL"
+            ],
+            "slovak": [
+                "sk",
+                "pl-PL"
+            ],
+            "tatar": [
+                "pl-PL"
+            ],
+            "ukrainian": [
+                "uk",
+                "pl-PL"
+            ],
+            "yiddish": [
+                "yi",
+                "pl-PL"
+            ]
+        }
+    },
+    "pt": {
+        "name": "portugal",
+        "user_fraction": 0.15140127529000547,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.pt",
+            "https://www.yahoo.com",
+            "http://www.iol.pt",
+            "http://www.sapo.pt"
+        ],
+        "languages": {
+            "mirandese": [
+                "pt-PT"
+            ],
+            "portuguese": [
+                "pt",
+                "pt-PT"
+            ]
+        }
+    },
+    "qa": {
+        "name": "qatar",
+        "user_fraction": 0.050295174467956116,
+        "referers": [
+            "https://www.google.com",
+            "https://www.yahoo.com",
+            "https://www.daum.net",
+            "https://www.naver.com",
+            "https://www.google.com.qa",
+            "https://www.google.com.sg",
+            "https://www.indeed.com"
+        ],
+        "languages": {
+            "arabic": [
+                "ar-QA",
+                "ar"
+            ]
+        }
+    },
+    "ro": {
+        "name": "romania",
+        "user_fraction": 0.24919681113586317,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.ro",
+            "https://www.yahoo.com"
+        ],
+        "languages": {
+            "armenian": [
+                "hy",
+                "ro-RO"
+            ],
+            "german": [
+                "de",
+                "ro-RO"
+            ],
+            "hungarian": [
+                "hu",
+                "ro-RO"
+            ],
+            "romani": [
+                "ro-RO"
+            ],
+            "romanian": [
+                "ro",
+                "ro-RO"
+            ],
+            "russian": [
+                "ru",
+                "ro-RO"
+            ],
+            "serbian": [
+                "sr",
+                "ro-RO"
+            ],
+            "slovak": [
+                "sk",
+                "ro-RO"
+            ],
+            "tatar": [
+                "ro-RO"
+            ],
+            "turkish": [
+                "tr",
+                "ro-RO"
+            ],
+            "ukrainian": [
+                "uk",
+                "ro-RO"
+            ]
+        }
+    },
+    "ru": {
+        "name": "russia",
+        "user_fraction": 2.5782628469323594,
+        "referers": [
+            "https://www.google.com",
+            "https://www.yandex.ru",
+            "https://www.google.ru",
+            "https://www.rambler.ru",
+            "http://www.metabear.ru",
+            "http://1el.ru",
+            "http://www.agropoisk.ru",
+            "http://bukinist.agava.ru",
+            "http://codavr.ru",
+            "http://go.mail.ru",
+            "http://www.ljpoisk.ru",
+            "http://www.metabot.ru",
+            "http://metabrain.ru",
+            "http://nigma.ru",
+            "http://yottos.ru"
+        ],
+        "languages": {
+            "russian": [
+                "ru-RU",
+                "ru"
+            ]
+        }
+    },
+    "rw": {
+        "name": "rwanda",
+        "user_fraction": 0.05279221607620507,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "english": [
+                "rw-RW",
+                "en-RW"
+            ],
+            "french": [
+                "rw-RW",
+                "en-RW"
+            ],
+            "kinyarwanda": [
+                "rw-RW",
+                "en-RW"
+            ],
+            "swahili": [
+                "rw-RW",
+                "en-RW"
+            ]
+        }
+    },
+    "kn": {
+        "name": "saint kitts and nevis",
+        "user_fraction": 0.0008872759869770538,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "english": [
+                "en",
+                "en-KN"
+            ]
+        }
+    },
+    "lc": {
+        "name": "saint lucia",
+        "user_fraction": 0.0018053600300064348,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "english": [
+                "en-LC",
+                "en"
+            ]
+        }
+    },
+    "vc": {
+        "name": "saint vincent and the grenadines",
+        "user_fraction": 0.0014311146501986337,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "english": [
+                "en"
+            ]
+        }
+    },
+    "as": {
+        "name": "samoa",
+        "user_fraction": 0.0013114379656626748,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "english": [
+                "en-WS",
+                "en"
+            ]
+        }
+    },
+    "sm": {
+        "name": "san marino",
+        "user_fraction": 0.0003992533376220372,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "italian": [
+                "it-SM",
+                "it"
+            ]
+        }
+    },
+    "sa": {
+        "name": "saudi arabia",
+        "user_fraction": 0.5372809966728633,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.com.sa",
+            "https://www.yahoo.com"
+        ],
+        "languages": {
+            "arabic": [
+                "ar-SA",
+                "ar"
+            ],
+            "filipino": [
+                "ar-SA"
+            ]
+        }
+    },
+    "sn": {
+        "name": "senegal",
+        "user_fraction": 0.09332016415466637,
+        "referers": [
+            "https://www.google.com",
+            "https://www.yahoo.com",
+            "https://www.google.fr",
+            "https://www.google.sn"
+        ],
+        "languages": {
+            "french": [
+                "fr",
+                "ff-SN"
+            ]
+        }
+    },
+    "rs": {
+        "name": "serbia",
+        "user_fraction": 0.12280339434334311,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.rs",
+            "https://www.yahoo.com"
+        ],
+        "languages": {
+            "serbian": [
+                "sr",
+                "sr-RS"
+            ]
+        }
+    },
+    "sc": {
+        "name": "seychelles",
+        "user_fraction": 0.001105931745213043,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "english": [
+                "en-SC",
+                "en"
+            ],
+            "french": [
+                "en-SC",
+                "fr"
+            ]
+        }
+    },
+    "sl": {
+        "name": "sierra leone",
+        "user_fraction": 0.019874771556774622,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "english": [
+                "en",
+                "en-SL"
+            ]
+        }
+    },
+    "sg": {
+        "name": "singapore",
+        "user_fraction": 0.0957635747175631,
+        "referers": [
+            "https://www.google.com",
+            "https://www.yahoo.com",
+            "https://www.google.com.sg",
+            "https://www.baidu.com"
+        ],
+        "languages": {
+            "english": [
+                "zh-SG",
+                "en-SG"
+            ],
+            "malay": [
+                "zh-SG",
+                "en-SG"
+            ],
+            "mandarin chinese": [
+                "zh-SG",
+                "ms-SG"
+            ],
+            "tamil": [
+                "zh-SG",
+                "en-SG"
+            ]
+        }
+    },
+    "sk": {
+        "name": "slovakia",
+        "user_fraction": 0.08833084814219977,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.sk",
+            "https://www.yahoo.com",
+            "http://morfeo.sk"
+        ],
+        "languages": {
+            "bulgarian": [
+                "sk-SK",
+                "bg"
+            ],
+            "czech": [
+                "sk-SK",
+                "cs"
+            ],
+            "german": [
+                "sk-SK",
+                "de"
+            ],
+            "hungarian": [
+                "hu",
+                "sk-SK"
+            ],
+            "polish": [
+                "sk-SK",
+                "pl"
+            ],
+            "romani": [
+                "sk-SK"
+            ],
+            "rusyn": [
+                "sk-SK"
+            ],
+            "serbian": [
+                "sr",
+                "sk-SK"
+            ],
+            "slovak": [
+                "sk",
+                "sk-SK"
+            ],
+            "ukrainian": [
+                "uk",
+                "sk-SK"
+            ]
+        }
+    },
+    "si": {
+        "name": "slovenia",
+        "user_fraction": 0.032593632185603856,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com",
+            "http://www.najdi.si"
+        ],
+        "languages": {
+            "croatian": [
+                "sl-SI",
+                "hr"
+            ],
+            "hungarian": [
+                "sl-SI",
+                "hu"
+            ],
+            "italian": [
+                "sl-SI",
+                "it"
+            ],
+            "slovene": [
+                "sl-SI"
+            ]
+        }
+    },
+    "sb": {
+        "name": "solomon islands",
+        "user_fraction": 0.0014474820507061241,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "english": [
+                "en-SB",
+                "en"
+            ]
+        }
+    },
+    "so": {
+        "name": "somalia",
+        "user_fraction": 0.005856728649313198,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "arabic": [
+                "ar-SO",
+                "ar"
+            ]
+        }
+    },
+    "za": {
+        "name": "south africa",
+        "user_fraction": 0.6328071447663173,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.co.za",
+            "https://www.yahoo.com",
+            "https://www.bing.com"
+        ],
+        "languages": {
+            "afrikaans": [
+                "af-ZA",
+                "en-ZA"
+            ],
+            "english": [
+                "af-ZA",
+                "en-ZA"
+            ],
+            "northern sotho": [
+                "af-ZA",
+                "en-ZA"
+            ],
+            "sotho": [
+                "af-ZA",
+                "en-ZA"
+            ],
+            "southern ndebele": [
+                "af-ZA",
+                "en-ZA"
+            ],
+            "swazi": [
+                "af-ZA",
+                "en-ZA"
+            ],
+            "tsonga": [
+                "af-ZA",
+                "en-ZA"
+            ],
+            "tswana": [
+                "af-ZA",
+                "en-ZA"
+            ],
+            "venda": [
+                "af-ZA",
+                "en-ZA"
+            ],
+            "xhosa": [
+                "af-ZA",
+                "en-ZA"
+            ],
+            "zulu": [
+                "af-ZA",
+                "en-ZA"
+            ]
+        }
+    },
+    "ss": {
+        "name": "south sudan",
+        "user_fraction": 0.019933706116611664,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "arabic": [
+                "en-SS",
+                "ar"
+            ],
+            "english": [
+                "en",
+                "en-SS"
+            ]
+        }
+    },
+    "es": {
+        "name": "spain",
+        "user_fraction": 0.8422210622237623,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.es",
+            "https://www.yahoo.com"
+        ],
+        "languages": {
+            "french": [
+                "eu-ES",
+                "fr"
+            ],
+            "portuguese": [
+                "eu-ES",
+                "pt"
+            ],
+            "spanish": [
+                "es",
+                "eu-ES"
+            ]
+        }
+    },
+    "lk": {
+        "name": "sri lanka",
+        "user_fraction": 0.14144922042754682,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.lk",
+            "https://www.yahoo.com"
+        ],
+        "languages": {
+            "sinhala": [
+                "si",
+                "ta-LK"
+            ],
+            "tamil": [
+                "ta",
+                "ta-LK"
+            ]
+        }
+    },
+    "sd": {
+        "name": "sudan",
+        "user_fraction": 0.24854292951291893,
+        "referers": [
+            "https://www.google.com",
+            "https://www.yahoo.com"
+        ],
+        "languages": {
+            "arabic": [
+                "ar-SD",
+                "en-SD"
+            ],
+            "english": [
+                "en",
+                "ar-SD"
+            ]
+        }
+    },
+    "sr": {
+        "name": "suriname",
+        "user_fraction": 0.005478014015726047,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "dutch": [
+                "nl-SR",
+                "nl"
+            ]
+        }
+    },
+    "se": {
+        "name": "sweden",
+        "user_fraction": 0.1897924632048839,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.se",
+            "https://www.yahoo.com",
+            "http://www.eniro.se",
+            "http://www.seek.se"
+        ],
+        "languages": {
+            "finnish": [
+                "se-SE",
+                "fi"
+            ],
+            "swedish": [
+                "se-SE",
+                "sv"
+            ]
+        }
+    },
+    "ch": {
+        "name": "switzerland",
+        "user_fraction": 0.15777188867054354,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.ch",
+            "https://www.yahoo.com",
+            "https://www.daum.net",
+            "https://www.naver.com",
+            "http://www.etools.ch",
+            "http://www.search.ch",
+            "http://www.centil-europe.ch"
+        ],
+        "languages": {
+            "french": [
+                "fr",
+                "fr-CH"
+            ],
+            "german": [
+                "de",
+                "fr-CH"
+            ],
+            "italian": [
+                "it",
+                "fr-CH"
+            ],
+            "romansh": [
+                "rm",
+                "fr-CH"
+            ]
+        }
+    },
+    "tw": {
+        "name": "taiwan",
+        "user_fraction": 0.43541706931663715,
+        "referers": [
+            "https://www.google.com",
+            "https://www.yahoo.com",
+            "https://www.google.com.tw",
+            "https://www.baidu.com",
+            "https://www.yahoo.com.tw"
+        ],
+        "languages": {
+            "mandarin chinese": [
+                "zh-TW"
+            ],
+            "taiwanese": [
+                "zh-TW"
+            ]
+        }
+    },
+    "tj": {
+        "name": "tajikistan",
+        "user_fraction": 0.03891482555101736,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "russian": [
+                "ru"
+            ]
+        }
+    },
+    "tz": {
+        "name": "tanzania",
+        "user_fraction": 0.5959005039134884,
+        "referers": [
+            "https://www.google.com",
+            "https://www.yahoo.com",
+            "https://www.google.co.tz"
+        ],
+        "languages": {
+            "english": [
+                "en",
+                "en-TZ"
+            ],
+            "swahili": [
+                "sw",
+                "en-TZ"
+            ]
+        }
+    },
+    "th": {
+        "name": "thailand",
+        "user_fraction": 1.0734771763417024,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.co.th",
+            "https://www.yahoo.com"
+        ],
+        "languages": {
+            "thai": [
+                "th-TH",
+                "th"
+            ]
+        }
+    },
+    "tg": {
+        "name": "togo",
+        "user_fraction": 0.019144197538976684,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "french": [
+                "fr",
+                "fr-TG"
+            ]
+        }
+    },
+    "to": {
+        "name": "tonga",
+        "user_fraction": 0.0008850711551125738,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "english": [
+                "en",
+                "to-TO"
+            ],
+            "tongan": [
+                "to-TO",
+                "to"
+            ]
+        }
+    },
+    "tt": {
+        "name": "trinidad and tobago",
+        "user_fraction": 0.021030202770512745,
+        "referers": [
+            "https://www.google.com",
+            "https://www.yahoo.com",
+            "https://www.bing.com",
+            "https://www.google.tt"
+        ],
+        "languages": {
+            "english": [
+                "en",
+                "en-TT"
+            ]
+        }
+    },
+    "tn": {
+        "name": "tunisia",
+        "user_fraction": 0.12713199574042058,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.tn",
+            "https://www.google.fr",
+            "https://www.yahoo.com"
+        ],
+        "languages": {
+            "arabic": [
+                "ar-TN",
+                "fr-TN"
+            ],
+            "tunisian": [
+                "ar-TN",
+                "fr-TN"
+            ]
+        }
+    },
+    "tr": {
+        "name": "turkey",
+        "user_fraction": 1.3893600012061662,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.com.tr",
+            "https://www.yahoo.com"
+        ],
+        "languages": {
+            "kurdish": [
+                "tr-TR"
+            ],
+            "turkish": [
+                "tr",
+                "tr-TR"
+            ]
+        }
+    },
+    "tm": {
+        "name": "turkmenistan",
+        "user_fraction": 0.02430461644946697,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "russian": [
+                "ru"
+            ]
+        }
+    },
+    "tv": {
+        "name": "tuvalu",
+        "user_fraction": 0.00010964569272008186,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "english": [
+                "en",
+                "en-TV"
+            ],
+            "tuvaluan": [
+                "en-TV"
+            ]
+        }
+    },
+    "ug": {
+        "name": "uganda",
+        "user_fraction": 0.20186739374918422,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "english": [
+                "en",
+                "en-UG"
+            ],
+            "swahili": [
+                "en-UG",
+                "sw"
+            ]
+        }
+    },
+    "ua": {
+        "name": "ukraine",
+        "user_fraction": 0.6535042192917923,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.com.ua",
+            "https://www.google.ru",
+            "https://www.yandex.ua",
+            "https://www.yandex.ru",
+            "http://weblib.in.ua"
+        ],
+        "languages": {
+            "russian": [
+                "ru-UA",
+                "ru"
+            ],
+            "ukrainian": [
+                "uk",
+                "ru-UA"
+            ]
+        }
+    },
+    "ae": {
+        "name": "united arab emirates",
+        "user_fraction": 0.1770463500596757,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.ae",
+            "https://www.yahoo.com",
+            "https://www.indeed.com"
+        ],
+        "languages": {
+            "arabic": [
+                "ar-AE",
+                "ar"
+            ]
+        }
+    },
+    "gb": {
+        "name": "united kingdom",
+        "user_fraction": 1.2911379396429574,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.co.uk",
+            "https://www.yahoo.com",
+            "https://www.rightmove.co.uk",
+            "https://www.bing.com",
+            "https://www.duckduckgo.com"
+        ],
+        "languages": {
+            "english": [
+                "kw-GB",
+                "gd-GB"
+            ],
+            "french": [
+                "kw-GB",
+                "gd-GB"
+            ],
+            "irish": [
+                "kw-GB",
+                "gd-GB"
+            ],
+            "manx": [
+                "kw-GB",
+                "gd-GB"
+            ],
+            "pitcairnese": [
+                "cy-GB",
+                "kw-GB"
+            ],
+            "scottish": [
+                "cy-GB",
+                "kw-GB"
+            ],
+            "welsh": [
+                "cy",
+                "kw-GB"
+            ]
+        }
+    },
+    "us": {
+        "name": "united states",
+        "user_fraction": 6.102021160074121,
+        "referers": [
+            "https://www.google.com",
+            "https://www.yahoo.com",
+            "https://www.bing.com",
+            "https://www.zillow.com",
+            "https://www.craigslist.org",
+            "https://www.indeed.com",
+            "http://vector.us",
+            "http://www.similicio.us"
+        ],
+        "languages": {
+            "english": [
+                "es-US",
+                "en"
+            ]
+        }
+    },
+    "uy": {
+        "name": "uruguay",
+        "user_fraction": 0.05780234887960837,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.com.uy",
+            "https://www.yahoo.com"
+        ],
+        "languages": {
+            "spanish": [
+                "es",
+                "es-UY"
+            ]
+        }
+    },
+    "uz": {
+        "name": "uzbekistan",
+        "user_fraction": 0.3315680980651244,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.ru",
+            "https://www.yandex.ru",
+            "https://www.yandex.uz",
+            "https://www.google.co.uz"
+        ],
+        "languages": {
+            "russian": [
+                "uz-UZ",
+                "ru"
+            ],
+            "uzbek": [
+                "uz-UZ",
+                "uz"
+            ]
+        }
+    },
+    "vu": {
+        "name": "vanuatu",
+        "user_fraction": 0.001411291026768445,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "english": [
+                "en-VU",
+                "en"
+            ],
+            "french": [
+                "en-VU",
+                "fr"
+            ]
+        }
+    },
+    "ve": {
+        "name": "venezuela",
+        "user_fraction": 0.40847889045347463,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.co.ve",
+            "https://www.yahoo.com",
+            "https://www.daum.net",
+            "https://www.naver.com",
+            "https://www.google.com.sg"
+        ],
+        "languages": {
+            "spanish": [
+                "es",
+                "es-VE"
+            ],
+            "venezuelan sign language": [
+                "es-VE"
+            ]
+        }
+    },
+    "vn": {
+        "name": "vietnam",
+        "user_fraction": 1.3541269667819285,
+        "referers": [
+            "https://www.google.com",
+            "https://www.google.com.vn",
+            "https://www.yahoo.com"
+        ],
+        "languages": {
+            "cantonese": [
+                "vi-VN"
+            ],
+            "thai": [
+                "vi-VN",
+                "th"
+            ],
+            "vietnamese": [
+                "vi-VN",
+                "vi"
+            ]
+        }
+    },
+    "ye": {
+        "name": "yemen",
+        "user_fraction": 0.14993873681990047,
+        "referers": [
+            "https://www.google.com",
+            "https://www.yahoo.com",
+            "https://www.bing.com"
+        ],
+        "languages": {
+            "arabic": [
+                "ar-YE",
+                "ar"
+            ]
+        }
+    },
+    "zm": {
+        "name": "zambia",
+        "user_fraction": 0.09456374891628343,
+        "referers": [
+            "https://www.google.com/",
+            "https://search.yahoo.com/",
+            "https://www.bing.com/",
+            "https://www.baidu.com",
+            "https://duckduckgo.com"
+        ],
+        "languages": {
+            "english": [
+                "en-ZM",
+                "en"
+            ]
+        }
+    },
+    "zw": {
+        "name": "zimbabwe",
+        "user_fraction": 0.08884860622670007,
+        "referers": [
+            "https://www.google.com",
+            "https://www.yahoo.com",
+            "https://www.google.co.zw",
+            "https://www.bing.com",
+            "https://www.ask.com"
+        ],
+        "languages": {
+            "chewa": [
+                "nd-ZW",
+                "sn-ZW"
+            ],
+            "english": [
+                "nd-ZW",
+                "en"
+            ],
+            "kalanga": [
+                "nd-ZW",
+                "sn-ZW"
+            ],
+            "khoisan": [
+                "nd-ZW",
+                "sn-ZW"
+            ],
+            "nambya": [
+                "nd-ZW",
+                "sn-ZW"
+            ]
+        }
+    }
+}

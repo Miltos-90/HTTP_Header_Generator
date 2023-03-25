@@ -1,7 +1,7 @@
-# HTTP Headers
+# Random HTTP Header Generator
 
 ## Description
-The **http-headers** package can be used to generate random, yet realistic, http request headers. 
+The **random-header-generator** package can be used to generate random, yet realistic, http request headers. 
 
 It is inspired by the excellent [ua-parser](https://github.com/faisalman/ua-parser-js), [apify](https://github.com/apify/header-generator), and [fake-http-header](https://github.com/MichaelTatarski/fake-http-header/tree/main/fake_http_header) repositories, and it emulates real browser behaviour for the following header fields:
 
@@ -265,7 +265,7 @@ pip install http-headers
 The generation of headers is very straight-forward, and can be performed in a variety of ways. The generator can be instantiated with one of the following:
 
 ```python
-from http_headers import HeaderGenerator
+from random_header_generator import HeaderGenerator
 
 # Approach 1
 generator = HeaderGenerator() # defaults to user_agents = 'program'
