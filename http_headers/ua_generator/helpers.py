@@ -222,7 +222,7 @@ def getAgent(by: GENERATOR_TYPE, **kwargs):
             """ Checks if all input browsers are available for scraping from the URL """
 
             # Make set of all available browsers
-            lines       = readFile('./data/scraper_browsers.txt')
+            lines       = readFile('scraper_browsers.txt')
             allBrowsers = set( [b.rstrip('\n') for b in lines] )
             
             return not bool(set(browsers).difference(allBrowsers))

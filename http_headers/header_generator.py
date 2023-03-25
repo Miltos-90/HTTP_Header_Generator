@@ -1,9 +1,8 @@
 """ Implementation of the Header Generator class, along with and helper classes """
 
-from abc           import ABC
 from .ua_parser    import Parser
 from collections   import OrderedDict
-from typing        import Literal, Dict, Union, Any
+from typing        import Dict, Union, Any
 from .ua_generator import CHParser, Generator as UAGenerator
 from .             import definitions as defs
 from .             import utils
@@ -11,54 +10,13 @@ import random      as rd
 import warnings
 
 
-""" Helper classes for use in the HeaderGenerator class. """
-class GenericHeaderGenerator(ABC):
-    """ Generic HTTP Header generator class """
+class Accept():
+    """ Generator of the 'Accept' header """
 
     def __init__(self, pathToFile: str):
         """ Initialisation method. Reads necessary data. """
-        
+
         self.data = utils.readFile(pathToFile)
-        
-        return
-
-
-    def __call__(self, key: str, defaultKey: str) -> str:
-        """ Randomly chooses an element from the dictionary <data>
-            associated with the attribute <s>. If the attribute does not exist,
-            return a randomly selected value from the ones of the <default> key
-        """
-
-        exists = key in self.data.keys()
-
-        if exists: return rd.choice(self.data[key])
-        else     : return rd.choice(self.data[defaultKey])
-
-
-    @staticmethod
-    def _addQFactors(l:list) -> list:
-        """ Appends randomly generated relative quality factors (q-factors) 
-            to the elements (strings) of the input list l.
-        """
-        
-        num   = len(l)
-        minq  = round(1.0 / num, 1)      # Minimum q value that can be set (maximum = 1.0)
-        dq    = (1.0 - minq) / (num + 1) # Reduction rate between cosecutive q values
-        qVals = [""]                     # To be populated with the q values
-        q     = 1.0                      # Assume first q factor to be equal to 1
-
-        for _ in range(1, num):
-            q = rd.uniform(q - dq, q - 2 * dq) # Randomly select a continuously decreasing q factor
-            q = max(0.1, round(q, 1))          # round to first decimal and set it to minimum 0.1
-            qVals.append(f";q={q}")
-
-        l = [e + q for e, q in zip(l, qVals)] # Append to the elements of the input list
-
-        return l
-
-
-class Accept(GenericHeaderGenerator):
-    """ Generator of the 'Accept' header """
 
     def __call__(self, 
         name    : str,  # Browser name
@@ -79,27 +37,35 @@ class Accept(GenericHeaderGenerator):
         raise ValueError(f'{name} browser version {version} is not supported for the "Accept" header')
 
 
-class AcceptEncoding(GenericHeaderGenerator):
+class Referrer():
+    """ Generator of the 'Referer' header """
+
+    def __init__(self, pathToFile: str):
+        """ Initialisation method. Reads necessary data. """
+
+        data = utils.readFile(pathToFile)
+        self.data = {key: dict_['referers'] for key, dict_  in data.items()}
+    
+
+    def __call__(self, key: str) -> str: return rd.choice(self.data[key])
+
+
+class AcceptEncoding():
     """ Generator of the 'Accept-Encoding' header """
 
     def __init__(self, pathToFile: str):
         """ Initialisation method. Reads necessary data. """
 
-        super().__init__(pathToFile)
-
-        # The file contains a dict of a single element. Unpack it
-        self.data = self.data["Accept-Encoding"]
+        data = utils.readFile(pathToFile)
+        self.data = data["Accept-Encoding"]
 
         return 
 
 
     def __call__(self, 
-        addQFactors: Union[bool, None] = None # Indicates if relative quality factors should be included
+        addQFactors: bool # Indicates if relative quality factors should be included
         ) -> str:
         """ Generate a randomized Accept Encoding header. """
-        
-        if not addQFactors: 
-            addQFactors = rd.random() >= 0.5      # Choose randomly if quality factors will be included if not specified
         
         numStr   = rd.randint(1, len(self.data))  # Choose a random number <num> of encoding strings to be included
         encoders = rd.sample(self.data, numStr)   # Make <k> unique random choices from the population of accepted encoders
@@ -113,33 +79,36 @@ class AcceptEncoding(GenericHeaderGenerator):
             encoders.insert(0, 'gzip')
 
         # Add relative quality factors
-        if addQFactors: encoders = self._addQFactors(encoders)
+        if addQFactors: encoders = utils.addQFactors(encoders)
 
         return ", ".join(encoders)
 
 
-class AcceptLanguage(GenericHeaderGenerator):
+class AcceptLanguage():
     """ Generator of the 'Accept-Language' header """
 
+    def __init__(self, pathToFile: str):
+        """ Initialisation method. Reads necessary data. """
+
+        data = utils.readFile(pathToFile)
+        self.data = {key: value['languages'] for key, value in data.items()}
+
+        return
+
+
     def __call__(self, 
-        domain          : str,                              # Domain to relate languages to
-        globalLanguages : list = ['en', 'en-GB', 'en-US'],  # Languages that are always accepted
-        addQFactors     : Union[bool, None] = None          # Indicates if relative quality factors should be included
+        country      : str,                            # Contry to relate languages to
+        addQFactors  : bool,                           # Relative quality factor indicator
+        globalLocales: set = {'en', 'en-GB', 'en-US'}, # Languages that are always accepted
         ) -> str:
         """ Generate a randomized 'Accept-Language' header """
 
-        # Get a language related to the input domain
-        domainLanguage = super().__call__(domain, defaultKey = "eu")
+        commonLocales = rd.choice( list(self.data[country].values()) )  # Common locales
+        locales       = list( globalLocales.union(set(commonLocales)) ) # Country + global locales
 
-        # Prevent the same language from appearing in both the domain-specific language and the universal languages
-        dupe = domainLanguage in globalLanguages
-        if not dupe : languages = [domainLanguage] + globalLanguages
-        else        : languages = globalLanguages
+        if addQFactors: locales = utils.addQFactors(locales)
 
-        # Add relative quality factors
-        if addQFactors: languages = self._addQFactors(languages)
-
-        return ",".join(languages)
+        return ",".join(locales)
 
 
 class Selector():
@@ -150,47 +119,35 @@ class Selector():
     def __init__(self):
         """ Imports required data. """
         
-        self.softwareData = utils.readFile('./data/software_market_share.json')
-        domainData        = utils.readFile('./data/domain_market_share.json')
+        self.softwareData = utils.readFile('software_market_share.json')
+        self.countryData  = utils.readFile('countries.json')
         
-        # Extract weights for device and domain selection
-        self.devWeights = [self.softwareData[d]["usage"] for d in defs.DEVICES]
-        self.domWeights = [domainData.get(domain, 1e-9) for domain in defs.DOMAINS]
-        # NOTE: If a domain is not available in the domain statistics file (./data/domain_market_share.json) 
-        # it can still be selected with a low probability (=1e-9 - two orders of magnitude below the minimum on the file).
+        # Extract weights for device and country selection
+        self.deviceWeights  = [self.softwareData[d]["usage"]        for d in defs.DEVICES]
+        self.countryWeights = [self.countryData[c]["user_fraction"] for c in defs.COUNTRIES]
         
         return
     
 
     def __call__(self, 
-        request: Literal['browser', 'device', 'domain'], **kwargs
-        ) -> str:
+        request: defs.INPUT_TYPE, **kwargs
+        ) -> Union[defs.DEVICE_TYPE, defs.BROWSER_TYPE, defs.COUNTRY_TYPE]:
         """ """
 
-        if request == 'browser': return self._getBrowser(device = kwargs.get('device', 'desktop'))
-        if request == 'device' : return self._getDevice()
-        if request == 'domain' : return self._getDomain()
-
-
-    def _getDevice(self) -> defs.DEVICE_TYPE:
-        """ Selects a device """
-        return rd.choices(population = defs.DEVICES, weights = self.devWeights)[0]
-
-
-    def _getBrowser(self, device: defs.DEVICE_TYPE) -> defs.BROWSER_TYPE:
-        """ Selects a browser """
-
-        browser = rd.choices(
-            population = list( self.softwareData[device]["browser"].keys() ),
-            weights    = list( self.softwareData[device]["browser"].values() )
-        )[0]
+        if request == 'browser': 
+            device = kwargs.get('device', 'desktop')
+            return rd.choices(
+                population = list(self.softwareData[device]["browser"].keys()),
+                weights    = list(self.softwareData[device]["browser"].values())
+            )[0]
         
-        return browser
-
-
-    def _getDomain(self) -> defs.DOMAIN_TYPE:
-        """ Selects a domain """
-        return rd.choices(population = defs.DOMAINS, weights = self.domWeights)[0]
+        elif request == 'device' : 
+            return rd.choices(defs.DEVICES, self.deviceWeights)[0]
+        
+        elif request == 'country': 
+            return rd.choices(defs.COUNTRIES, self.countryWeights)[0]
+        
+        else: raise ValueError(f'Invalid input type {request} encountered.')
 
 
 class ClientHintGenerator():
@@ -201,7 +158,7 @@ class ClientHintGenerator():
     def __init__(self):
         """ Initialisation method. Reads data and instantiates classes. """
 
-        self.cpuBitness = utils.readFile('./data/cpu_bitness.json')
+        self.cpuBitness = utils.readFile('cpu_bitness.json')
         self.Parser     = CHParser()
 
         return
@@ -342,31 +299,28 @@ class ClientHintGenerator():
         return f'"{x}"'
 
 
-""" Header generator """
 class HeaderGenerator(metaclass = utils.Singleton):
     """ Generator of realistic, randomly-chosen HTTP headers.
         Extended from: https://github.com/MichaelTatarski/fake-http-header
     """
 
-    def __init__(self, by: defs.GENERATOR_TYPE = 'program', **kwargs):
+    def __init__(self, user_agents: defs.GENERATOR_TYPE = 'program', **kwargs):
         """ Initialisation method. Instantiates necessary ojects. """
 
         self.Parser      = Parser()
-        self.UserAgent   = UAGenerator(by = by, **kwargs)
-        
+        self.UserAgent   = UAGenerator(by = user_agents, **kwargs)
         self.ClientHints = ClientHintGenerator()
-        self.Referer     = GenericHeaderGenerator('./data/referers.json')
-        self.Encoder     = AcceptEncoding('./data/acceptEncoding.json')
-        self.Language    = AcceptLanguage('./data/languages.json')
-        self.Accept      = Accept('./data/accept.json')
+        self.Referer     = Referrer('countries.json')
+        self.Encoder     = AcceptEncoding('acceptEncoding.json')
+        self.Language    = AcceptLanguage('countries.json')
+        self.Accept      = Accept('accept.json')
         self.Selector    = Selector()
-        self.domains     = list(self.Referer.data.keys())
 
         # Header-browser-version compatibility tables
-        self.compTable   = utils.readFile('./data/header_compatibility.json')
+        self.compTable   = utils.readFile('header_compatibility.json')
 
         # Browser-based header order
-        self.headerOrder = utils.readFile('./data/header_order.json')
+        self.headerOrder = utils.readFile('header_order.json')
 
         return
 
@@ -379,19 +333,17 @@ class HeaderGenerator(metaclass = utils.Singleton):
             selected values according to usage/market statistics data.
         """
 
-        if not value: 
-            # User did not supply a value for the input. Produce one.
+        if not value: # User did not supply a value for the input. Produce one.
             return self.Selector(inputType, **kwargs)
 
-        else:         
-            # Check if user input is valid.
+        else: # Check if user input is valid.
             value  = value.lower()
 
-            if   inputType not in ["browser", "device", "domain"]:      errMsg = "Invalid input type."
-            elif inputType == "browser" and value not in defs.BROWSERS: errMsg = "Invalid browser name."
-            elif inputType == "device"  and value not in defs.DEVICES:  errMsg = "Invalid device type."
-            elif inputType == "domain"  and value not in self.domains:  errMsg = "Invalid domain."
-            else:                                                       errMsg = None
+            if   inputType not in ["browser", "device", "country"]:      errMsg = "Invalid input type."
+            elif inputType == "browser" and value not in defs.BROWSERS:  errMsg = "Invalid browser name."
+            elif inputType == "device"  and value not in defs.DEVICES:   errMsg = "Invalid device type."
+            elif inputType == "country" and value not in defs.COUNTRIES: errMsg = "Invalid alpha-2 country code."
+            else:                                                        errMsg = None
 
             if errMsg: raise ValueError(errMsg)
             else     : return value
@@ -415,7 +367,7 @@ class HeaderGenerator(metaclass = utils.Singleton):
 
 
     @staticmethod
-    def _makeCookieHeader(cookieDict: Dict[str, str]) -> str:
+    def _addCookies(cookieDict: Dict[str, str]) -> str:
         """ Generates the <Cookie> header given a dict of cookies """
 
         # Convert dictionary of cookies to a list of {'name': <name>, 'value': <value>} dicts
@@ -497,37 +449,28 @@ class HeaderGenerator(metaclass = utils.Singleton):
     
 
     def __call__(self,
-        domain      : Union[None, defs.DOMAIN_TYPE]  = None, 
-        device      : Union[None, defs.DEVICE_TYPE]  = None, 
-        browser     : Union[None, defs.BROWSER_TYPE] = None,
+        country     : Union[None, defs.COUNTRY_TYPE]  = None, 
+        device      : Union[None, defs.DEVICE_TYPE]   = None, 
+        browser     : Union[None, defs.BROWSER_TYPE]  = None,
         httpVersion : defs.HTTP_VERSION_TYPE = 1,
         cookies     : Dict[str, str] = {},
         ) -> OrderedDict[str, str]:
 
         """ Generates realistic, randomly-chosen HTTP headers.
         Inputs:
-            * domain can be either:
-                * str containing one of: 
-                    com, jsp, edu, org, info, net, php3, aspx, biz, uk, it,
-                    is,  ua,  cc,  de,  us,   tv,  eu,   ru,   cn,  jp, nl, be,  
-                    fr,  ch,  gr,  se,  dk,   bg,  cz,   hu,   lt,  pl, ro, sk, 
-                    si,  br,  pt,  es,  il,   au,  io,   no,   ir,  at
-                * Empty: random selection among all
-            * Browser can be either
-                * str containing one of: chrome, edge, firefox, safari
-                * Empty: random selection among all
-            * Device (list) can be either
-                * str containing one of: mobile, desktop
-                * Empty: random selection among all
-            * HTTP version (int), can be either 1 (supports both 1.0 and 1.1) 2, or
-                empty which defaults to 1
+            * country can be either str or empty (randomly selected)
+            * Browser can be either str or empty (randomly selected)
+            * Device (list) can be either str or empty (randomly selected)
+            * HTTP version (int), can be either 1 (supports both 1.0 and 1.1) 2, or empty which defaults to 1
             * Cookies: Dictionary of <name>, <value> pairs containing cookies, or empty.
+        
+        Possible values for country, domain, browser, device strings exist in definitions.py
         """
 
         # Sanity check on user supplied values
         browser_ = self._checkInput(inputType = 'browser', value = browser)
         device_  = self._checkInput(inputType = 'device',  value = device)
-        domain_  = self._checkInput(inputType = 'domain',  value = domain)
+        country_ = self._checkInput(inputType = 'country', value = country)
         if httpVersion not in defs.HTTP_VERSIONS: 
             raise ValueError('Invalid http version.')
         
@@ -539,14 +482,13 @@ class HeaderGenerator(metaclass = utils.Singleton):
         
         headers: dict[str, str] =  { # Make (partial) header dictionary
             "User-Agent"      : userAgent,
-            "Referer"         : self.Referer(domain_, defaultKey = 'com'), 
+            "Referer"         : self.Referer(country_), 
             "Accept"          : self.Accept(browser_, brVersion),
-            "Accept-Language" : self.Language(domain_),
-            "Accept-Encoding" : self.Encoder(),
+            "Accept-Language" : self.Language(country_, addQFactors = rd.random() > 0.5),
+            "Accept-Encoding" : self.Encoder(addQFactors = rd.random() > 0.5),
         }
 
-        if bool(cookies):                     # Add cookies if needed
-            headers['Cookie'] = self._makeCookieHeader(cookies)
+        if bool(cookies): headers['Cookie'] = self._addCookies(cookies) # Add cookies if needed
         headers.update(clientHints)           # Add client hints
         headers.update(defs.CONSTANT_HEADERS) # Add constant-valued headers
         
@@ -557,6 +499,6 @@ class HeaderGenerator(metaclass = utils.Singleton):
         # Print a warning if the user-supplied values were overwritten
         self._warnOnOverwrite(inputType = 'browser', userValue = browser, newValue = browser_)
         self._warnOnOverwrite(inputType = 'device',  userValue = device,  newValue = device_)   
-        self._warnOnOverwrite(inputType = 'domain',  userValue = domain,  newValue = domain_)       
+        self._warnOnOverwrite(inputType = 'country', userValue = country,  newValue = country_)       
         
         return headers

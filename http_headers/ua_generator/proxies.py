@@ -20,9 +20,9 @@ class Proxy(ABC):
         self.parser = Parser() # Parses an agent string (see ./ua_parser)
 
         # Dictionary that maps from returned parser value (key), to the value indicated here
-        self.aliases: Dict[PARSER_TYPE, Dict[str, str]] = readFile('./data/parser_adapter.json')
+        self.aliases: Dict[PARSER_TYPE, Dict[str, str]] = readFile('parser_adapter.json')
 
-        self.aliases.update({"device": readFile('./data/operating_systems.json')})
+        self.aliases.update({"device": readFile('operating_systems.json')})
 
         return
 

@@ -8,8 +8,8 @@ from typing         import TypedDict, List, Union, Dict
 import re
 
 # Read constants
-WINDOWS_VERSIONS = readFile('./data/windows_versions.json')
-SAFARI_VERSIONS  = readFile('./data/safari_versions.json')
+WINDOWS_VERSIONS = readFile('windows_versions.json')
+SAFARI_VERSIONS  = readFile('safari_versions.json')
 
 
 def strMapper(
