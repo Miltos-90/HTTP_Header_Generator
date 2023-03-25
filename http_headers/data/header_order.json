@@ -1,0 +1,172 @@
+{
+    "http version 1.x":
+    {
+        "safari": [
+            "Cookie",
+            "Connection",
+            "Upgrade-Insecure-Requests",
+            "Accept",
+            "Accept-Encoding",
+            "User-Agent",
+            "Accept-Language",
+            "Referer",
+            "Sec-Fetch-Mode",
+            "Sec-Fetch-Dest",
+            "Sec-Fetch-Site",
+            "Sec-Fetch-User"
+        ],
+
+        "chrome": [
+            "Connection",
+            "Upgrade-Insecure-Requests",
+            "User-Agent",
+            "Accept",
+            "Sec-Fetch-Mode",
+            "Sec-Fetch-Dest",
+            "Sec-Fetch-Site",
+            "Sec-Fetch-User",
+            "Referer",
+            "Accept-Encoding",
+            "Accept-Language",
+            "Cookie"
+        ],
+
+        "firefox": [
+            "User-Agent",
+            "Accept",
+            "Accept-Language",
+            "Accept-Encoding",
+            "Referer",
+            "Cookie",
+            "Connection",
+            "Upgrade-Insecure-Requests",
+            "Sec-Fetch-Mode",
+            "Sec-Fetch-Dest",
+            "Sec-Fetch-Site",
+            "Sec-Fetch-User"
+        ],
+
+        "edge": [
+            "Connection",
+            "Upgrade-Insecure-Requests",
+            "User-Agent",
+            "Accept",
+            "Sec-Fetch-Mode",
+            "Sec-Fetch-Dest",
+            "Sec-Fetch-Site",
+            "Sec-Fetch-User",
+            "Referer",
+            "Accept-Encoding",
+            "Accept-Language",
+            "Cookie",
+            "te"
+        ],
+
+        "opera": [
+            "Connection",
+            "Upgrade-Insecure-Requests",
+            "User-Agent",
+            "Accept",
+            "Sec-Fetch-Mode",
+            "Sec-Fetch-Dest",
+            "Sec-Fetch-Site",
+            "Sec-Fetch-User",
+            "Referer",
+            "Accept-Encoding",
+            "Accept-Language",
+            "Cookie"
+        ]
+
+    },
+
+    "http version 2.x":
+    {
+        "safari": [
+            "cookie",
+            "sec-ch-ua",
+            "sec-ch-ua-mobile",
+            "upgrade-insecure-requests",
+            "accept",
+            "accept-encoding",
+            "user-agent",
+            "accept-language",
+            "referer",
+            "sec-fetch-site",
+            "sec-fetch-mode",
+            "sec-fetch-user",
+            "sec-fetch-dest"
+        ],
+
+        "chrome": [
+            "sec-ch-ua",
+            "sec-ch-ua-mobile",
+            "sec-ch-ua-platform",
+            "upgrade-insecure-requests",
+            "user-agent",
+            "accept",
+            "sec-fetch-site",
+            "sec-fetch-mode",
+            "sec-fetch-user",
+            "sec-fetch-dest",
+            "referer",
+            "accept-encoding",
+            "accept-language",
+            "te",
+            "cookie"
+        ],
+
+        "firefox": [
+            "sec-ch-ua",
+            "sec-ch-ua-mobile",
+            "user-agent",
+            "accept",
+            "accept-language",
+            "accept-encoding",
+            "referer",
+            "cookie",
+            "upgrade-insecure-requests",
+            "te",
+            "sec-fetch-site",
+            "sec-fetch-mode",
+            "sec-fetch-user",
+            "sec-fetch-dest"
+        ],
+
+        "edge": [
+            "sec-ch-ua",
+            "sec-ch-ua-mobile",
+            "sec-ch-ua-platform",
+            "upgrade-insecure-requests",
+            "user-agent",
+            "accept",
+            "sec-fetch-site",
+            "sec-fetch-mode",
+            "sec-fetch-user",
+            "sec-fetch-dest",
+            "referer",
+            "accept-encoding",
+            "accept-language",
+            "cookie",
+            "te"
+        ],
+
+        "opera": [
+            "sec-ch-ua",
+            "sec-ch-ua-mobile",
+            "sec-ch-ua-platform",
+            "upgrade-insecure-requests",
+            "user-agent",
+            "accept",
+            "sec-fetch-site",
+            "sec-fetch-mode",
+            "sec-fetch-user",
+            "sec-fetch-dest",
+            "referer",
+            "accept-encoding",
+            "accept-language",
+            "te",
+            "cookie"
+        ]
+    }
+
+}

@@ -1,0 +1,38 @@
+{
+    "desktop":
+    {
+        "usage": 0.4,
+        "browser":
+        {
+            "chrome": 0.68,
+            "edge"  : 0.11,
+            "safari" : 0.09,
+            "firefox": 0.08,
+            "opera"  : 0.04
+        },
+        "os":
+        {
+            "windows": 0.77,
+            "macos": 0.17,
+            "linux": 0.06
+        }
+    },
+
+    "mobile":
+    {
+        "usage": 0.6,
+        "browser":
+        {
+            "chrome": 0.61,
+            "safari" : 0.36,
+            "edge"  : 0.01,
+            "firefox": 0.01,
+            "opera"  : 0.01
+        },
+        "os":
+        {
+            "android" : 0.73,
+            "ios": 0.27
+        }
+    }
+}
