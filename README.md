@@ -257,7 +257,7 @@ User agents can be generated in one of the following ways:
 The package can be easily installed via pip:
 
 ```bash
-pip install http-headers
+pip install random-header-generator
 ```
 
 ## Usage
