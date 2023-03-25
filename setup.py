@@ -7,7 +7,7 @@ with open('./README.md', 'r') as f: README = f.read()
 setup(
     # the name must match the folder name 'verysimplemodule'
     name="http-headers", 
-    version="1.1.0",
+    version="2.1.1",
     author="miltos_90",
     description='Generator of random, realistic http headers.',
     long_description=README,

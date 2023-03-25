@@ -10,46 +10,35 @@
         "languages": {
             "balochi": [
                 "fa-AF",
-                "uz-AF",
-                "ps-AF"
+                "uz-AF"
             ],
             "nuristani": [
                 "fa-AF",
-                "uz-AF",
-                "ps-AF"
+                "uz-AF"
             ],
             "pamiri": [
                 "fa-AF",
-                "uz-AF",
-                "ps-AF"
+                "uz-AF"
             ],
             "pashayi": [
                 "fa-AF",
-                "uz-AF",
-                "ps-AF"
+                "uz-AF"
             ],
             "pashto": [
                 "ps",
-                "fa-AF",
-                "uz-AF",
-                "ps-AF"
+                "fa-AF"
             ],
             "persian": [
                 "fa-AF",
-                "uz-AF",
-                "ps-AF",
-                "fa"
+                "uz-AF"
             ],
             "turkmen": [
                 "fa-AF",
-                "uz-AF",
-                "ps-AF"
+                "uz-AF"
             ],
             "uzbek": [
                 "fa-AF",
-                "uz-AF",
-                "ps-AF",
-                "uz"
+                "uz-AF"
             ]
         }
     },
@@ -96,8 +85,7 @@
         "languages": {
             "arabic": [
                 "ar-DZ",
-                "fr-DZ",
-                "ar"
+                "fr-DZ"
             ],
             "tamazight": [
                 "ar-DZ",
@@ -151,8 +139,7 @@
             ],
             "portuguese": [
                 "pt-AO",
-                "ln-AO",
-                "pt"
+                "ln-AO"
             ],
             "umbundu": [
                 "pt-AO",
@@ -388,13 +375,11 @@
         "languages": {
             "belarusian": [
                 "ru-BY",
-                "be-BY",
-                "be"
+                "be-BY"
             ],
             "russian": [
                 "ru-BY",
-                "be-BY",
-                "ru"
+                "be-BY"
             ]
         }
     },
@@ -411,30 +396,19 @@
         "languages": {
             "dutch": [
                 "nl-BE",
-                "de-BE",
-                "nl",
-                "en-BE",
-                "fr-BE"
+                "de-BE"
             ],
             "french": [
                 "nl-BE",
-                "de-BE",
-                "fr",
-                "en-BE",
-                "fr-BE"
+                "de-BE"
             ],
             "german": [
                 "nl-BE",
-                "de-BE",
-                "de",
-                "en-BE",
-                "fr-BE"
+                "de-BE"
             ],
             "spanish": [
                 "nl-BE",
-                "en-BE",
-                "de-BE",
-                "fr-BE"
+                "en-BE"
             ]
         }
     },
@@ -468,8 +442,7 @@
         "languages": {
             "french": [
                 "fr-BJ",
-                "fr",
-                "yo-BJ"
+                "fr"
             ]
         }
     },
@@ -518,8 +491,7 @@
             ],
             "spanish": [
                 "qu-BO",
-                "es-BO",
-                "es"
+                "es-BO"
             ]
         }
     },
@@ -534,24 +506,15 @@
         "languages": {
             "bosnian": [
                 "sh-BA",
-                "bs-BA",
-                "bs",
-                "sr-BA",
-                "hr-BA"
+                "bs-BA"
             ],
             "croatian": [
                 "sh-BA",
-                "bs-BA",
-                "sr-BA",
-                "hr-BA",
-                "hr"
+                "bs-BA"
             ],
             "serbian": [
                 "sr",
-                "sh-BA",
-                "bs-BA",
-                "sr-BA",
-                "hr-BA"
+                "sh-BA"
             ]
         }
     },
@@ -646,13 +609,11 @@
         "languages": {
             "english": [
                 "fr-BI",
-                "en",
-                "rn-BI"
+                "en"
             ],
             "french": [
                 "fr-BI",
-                "fr",
-                "rn-BI"
+                "fr"
             ],
             "kirundi": [
                 "fr-BI",
@@ -689,15 +650,11 @@
         "languages": {
             "english": [
                 "ff-CM",
-                "en",
-                "en-CM",
-                "fr-CM"
+                "en"
             ],
             "french": [
                 "ff-CM",
-                "fr",
-                "en-CM",
-                "fr-CM"
+                "fr"
             ]
         }
     },
@@ -715,13 +672,11 @@
         "languages": {
             "english": [
                 "en",
-                "en-CA",
-                "fr-CA"
+                "en-CA"
             ],
             "french": [
                 "fr",
-                "en-CA",
-                "fr-CA"
+                "en-CA"
             ],
             "slavey": [
                 "en-CA",
@@ -742,13 +697,11 @@
         "languages": {
             "arabic": [
                 "fr-TD",
-                "ar",
-                "ar-TD"
+                "ar"
             ],
             "french": [
                 "fr-TD",
-                "fr",
-                "ar-TD"
+                "fr"
             ]
         }
     },
@@ -781,51 +734,31 @@
         "languages": {
             "english": [
                 "zh-CN",
-                "ug-CN",
-                "en",
-                "bo-CN",
-                "ii-CN"
+                "ug-CN"
             ],
             "kazakh": [
                 "zh-CN",
-                "kk",
-                "ug-CN",
-                "bo-CN",
-                "ii-CN"
+                "kk"
             ],
             "korean": [
                 "zh-CN",
-                "ko",
-                "ug-CN",
-                "bo-CN",
-                "ii-CN"
+                "ko"
             ],
             "mongolian": [
                 "zh-CN",
-                "ug-CN",
-                "mn",
-                "bo-CN",
-                "ii-CN"
+                "ug-CN"
             ],
             "portuguese": [
                 "zh-CN",
-                "pt",
-                "ug-CN",
-                "bo-CN",
-                "ii-CN"
+                "pt"
             ],
             "standard chinese": [
                 "ii-CN",
-                "ug-CN",
-                "bo-CN",
-                "zh-CN"
+                "ug-CN"
             ],
             "tibetan": [
                 "zh-CN",
-                "ug-CN",
-                "bo",
-                "bo-CN",
-                "ii-CN"
+                "ug-CN"
             ]
         }
     },
@@ -858,8 +791,7 @@
         "languages": {
             "arabic": [
                 "ar-KM",
-                "fr-KM",
-                "ar"
+                "fr-KM"
             ],
             "comorian": [
                 "ar-KM",
@@ -867,8 +799,7 @@
             ],
             "french": [
                 "ar-KM",
-                "fr-KM",
-                "fr"
+                "fr-KM"
             ]
         }
     },
@@ -979,23 +910,19 @@
         "languages": {
             "armenian": [
                 "el-CY",
-                "tr-CY",
-                "hy"
+                "tr-CY"
             ],
             "english": [
                 "el-CY",
-                "en",
-                "tr-CY"
+                "en"
             ],
             "greek": [
                 "el-CY",
-                "tr-CY",
-                "el"
+                "tr-CY"
             ],
             "turkish": [
                 "el-CY",
-                "tr",
-                "tr-CY"
+                "tr"
             ]
         }
     },
@@ -1111,15 +1038,11 @@
         "languages": {
             "arabic": [
                 "ar-DJ",
-                "fr-DJ",
-                "so-DJ",
-                "ar"
+                "fr-DJ"
             ],
             "french": [
                 "ar-DJ",
-                "fr",
-                "fr-DJ",
-                "so-DJ"
+                "fr"
             ]
         }
     },
@@ -1168,13 +1091,11 @@
         "languages": {
             "quechua": [
                 "qu-EC",
-                "qu",
-                "es-EC"
+                "qu"
             ],
             "spanish": [
                 "qu-EC",
-                "es",
-                "es-EC"
+                "es"
             ]
         }
     },
@@ -1222,18 +1143,15 @@
         "languages": {
             "french": [
                 "fr",
-                "fr-GQ",
-                "es-GQ"
+                "fr-GQ"
             ],
             "portuguese": [
                 "fr-GQ",
-                "es-GQ",
-                "pt"
+                "es-GQ"
             ],
             "spanish": [
                 "es",
-                "fr-GQ",
-                "es-GQ"
+                "fr-GQ"
             ]
         }
     },
@@ -1250,27 +1168,19 @@
         "languages": {
             "arabic": [
                 "ar-ER",
-                "ti-ER",
-                "en-ER",
-                "ar"
+                "ti-ER"
             ],
             "italian": [
                 "ar-ER",
-                "ti-ER",
-                "en-ER",
-                "it"
+                "ti-ER"
             ],
             "russian": [
                 "ar-ER",
-                "ti-ER",
-                "en-ER",
-                "ru"
+                "ti-ER"
             ],
             "tigrinya": [
                 "ar-ER",
-                "ti-ER",
-                "en-ER",
-                "ti"
+                "ti-ER"
             ]
         }
     },
@@ -1320,37 +1230,23 @@
         "languages": {
             "afar": [
                 "ti-ET",
-                "om-ET",
-                "so-ET",
-                "am-ET"
+                "om-ET"
             ],
             "amharic": [
                 "om-ET",
-                "am",
-                "ti-ET",
-                "so-ET",
-                "am-ET"
+                "am"
             ],
             "oromo": [
                 "om-ET",
-                "ti-ET",
-                "so-ET",
-                "om",
-                "am-ET"
+                "ti-ET"
             ],
             "somali": [
                 "om-ET",
-                "ti-ET",
-                "so-ET",
-                "so",
-                "am-ET"
+                "ti-ET"
             ],
             "tigrinya": [
                 "om-ET",
-                "ti-ET",
-                "so-ET",
-                "ti",
-                "am-ET"
+                "ti-ET"
             ]
         }
     },
@@ -1390,15 +1286,11 @@
         "languages": {
             "finnish": [
                 "se-FI",
-                "sv-FI",
-                "fi",
-                "fi-FI"
+                "sv-FI"
             ],
             "swedish": [
                 "se-FI",
-                "sv-FI",
-                "fi-FI",
-                "sv"
+                "sv-FI"
             ]
         }
     },
@@ -1420,26 +1312,19 @@
         "languages": {
             "basque": [
                 "fr-FR",
-                "br-FR",
-                "eu",
-                "ca-FR"
+                "br-FR"
             ],
             "breton": [
                 "fr-FR",
-                "br-FR",
-                "br",
-                "ca-FR"
+                "br-FR"
             ],
             "corsican": [
                 "fr-FR",
-                "br-FR",
-                "ca-FR"
+                "br-FR"
             ],
             "french": [
                 "fr-FR",
-                "fr",
-                "br-FR",
-                "ca-FR"
+                "fr"
             ]
         }
     },
@@ -1489,8 +1374,7 @@
         "languages": {
             "georgian": [
                 "os-GE",
-                "ka-GE",
-                "ka"
+                "ka-GE"
             ]
         }
     },
@@ -1546,10 +1430,7 @@
         "languages": {
             "english": [
                 "ee-GH",
-                "ak-GH",
-                "en",
-                "en-GH",
-                "ha-GH"
+                "ak-GH"
             ]
         }
     },
@@ -1615,8 +1496,7 @@
         "languages": {
             "french": [
                 "fr-GN",
-                "fr",
-                "ff-GN"
+                "fr"
             ]
         }
     },
@@ -1771,41 +1651,11 @@
         "languages": {
             "english": [
                 "bn-IN",
-                "bo-IN",
-                "ks-IN",
-                "mr-IN",
-                "as-IN",
-                "kn-IN",
-                "en-IN",
-                "ne-IN",
-                "pa-IN",
-                "en",
-                "ur-IN",
-                "ta-IN",
-                "ml-IN",
-                "gu-IN",
-                "te-IN",
-                "or-IN",
-                "hi-IN"
+                "bo-IN"
             ],
             "hindi": [
                 "bn-IN",
-                "bo-IN",
-                "ks-IN",
-                "mr-IN",
-                "as-IN",
-                "kn-IN",
-                "en-IN",
-                "ne-IN",
-                "pa-IN",
-                "ur-IN",
-                "ta-IN",
-                "ml-IN",
-                "gu-IN",
-                "te-IN",
-                "or-IN",
-                "hi",
-                "hi-IN"
+                "bo-IN"
             ]
         }
     },
@@ -1921,13 +1771,11 @@
         "languages": {
             "english": [
                 "en",
-                "ga-IE",
-                "en-IE"
+                "ga-IE"
             ],
             "irish": [
                 "ga",
-                "ga-IE",
-                "en-IE"
+                "ga-IE"
             ]
         }
     },
@@ -1943,23 +1791,19 @@
         "languages": {
             "arabic": [
                 "he-IL",
-                "ar-IL",
-                "ar"
+                "ar-IL"
             ],
             "english": [
                 "he-IL",
-                "ar-IL",
-                "en"
+                "ar-IL"
             ],
             "hebrew": [
                 "he",
-                "he-IL",
-                "ar-IL"
+                "he-IL"
             ],
             "russian": [
                 "he-IL",
-                "ar-IL",
-                "ru"
+                "ar-IL"
             ]
         }
     },
@@ -1981,8 +1825,7 @@
         "languages": {
             "albanian": [
                 "sq",
-                "ca-IT",
-                "it-IT"
+                "ca-IT"
             ],
             "corsican": [
                 "ca-IT",
@@ -1990,23 +1833,19 @@
             ],
             "french": [
                 "fr",
-                "ca-IT",
-                "it-IT"
+                "ca-IT"
             ],
             "german": [
                 "ca-IT",
-                "de",
-                "it-IT"
+                "de"
             ],
             "greek": [
                 "ca-IT",
-                "el",
-                "it-IT"
+                "el"
             ],
             "italian": [
                 "ca-IT",
-                "it",
-                "it-IT"
+                "it"
             ],
             "sardinian": [
                 "ca-IT",
@@ -2089,13 +1928,11 @@
         "languages": {
             "kazakh": [
                 "kk-KZ",
-                "kk",
-                "ru-KZ"
+                "kk"
             ],
             "russian": [
                 "kk-KZ",
-                "ru",
-                "ru-KZ"
+                "ru"
             ]
         }
     },
@@ -2111,19 +1948,11 @@
         "languages": {
             "english": [
                 "en-KE",
-                "en",
-                "om-KE",
-                "so-KE",
-                "ki-KE",
-                "sw-KE"
+                "en"
             ],
             "swahili": [
                 "en-KE",
-                "om-KE",
-                "sw",
-                "so-KE",
-                "ki-KE",
-                "sw-KE"
+                "om-KE"
             ]
         }
     },
@@ -2181,13 +2010,11 @@
         "languages": {
             "kyrgyz": [
                 "ru-KG",
-                "ky-KG",
-                "ky"
+                "ky-KG"
             ],
             "russian": [
                 "ru-KG",
-                "ky-KG",
-                "ru"
+                "ky-KG"
             ]
         }
     },
@@ -2343,21 +2170,15 @@
         "languages": {
             "french": [
                 "de-LU",
-                "fr-LU",
-                "fr",
-                "lb-LU"
+                "fr-LU"
             ],
             "german": [
                 "de-LU",
-                "fr-LU",
-                "de",
-                "lb-LU"
+                "fr-LU"
             ],
             "luxembourgish": [
                 "de-LU",
-                "fr-LU",
-                "lb",
-                "lb-LU"
+                "fr-LU"
             ]
         }
     },
@@ -2374,15 +2195,11 @@
         "languages": {
             "french": [
                 "fr-MG",
-                "fr",
-                "mg-MG",
-                "en-MG"
+                "fr"
             ],
             "malagasy": [
                 "fr-MG",
-                "mg",
-                "mg-MG",
-                "en-MG"
+                "mg"
             ]
         }
     },
@@ -2419,20 +2236,15 @@
         "languages": {
             "cantonese": [
                 "en-MY",
-                "ta-MY",
-                "ms-MY"
+                "ta-MY"
             ],
             "chinese": [
                 "en-MY",
-                "ta-MY",
-                "ms-MY",
-                "zh"
+                "ta-MY"
             ],
             "malay": [
                 "en-MY",
-                "ms",
-                "ta-MY",
-                "ms-MY"
+                "ms"
             ]
         }
     },
@@ -2466,13 +2278,11 @@
         "languages": {
             "english": [
                 "mt-MT",
-                "en",
-                "en-MT"
+                "en"
             ],
             "maltese": [
                 "mt-MT",
-                "mt",
-                "en-MT"
+                "mt"
             ]
         }
     },
@@ -2506,15 +2316,11 @@
         "languages": {
             "arabic": [
                 "ff-MR",
-                "ar-MR",
-                "fr-MR",
-                "ar"
+                "ar-MR"
             ],
             "french": [
                 "ff-MR",
-                "fr",
-                "ar-MR",
-                "fr-MR"
+                "fr"
             ]
         }
     },
@@ -2530,8 +2336,7 @@
         "languages": {
             "english": [
                 "en",
-                "en-MU",
-                "fr-MU"
+                "en-MU"
             ],
             "mauritian creole": [
                 "en-MU",
@@ -2568,18 +2373,15 @@
         "languages": {
             "romanian": [
                 "ro-MD",
-                "ro",
-                "ru-MD"
+                "ro"
             ],
             "russian": [
                 "ro-MD",
-                "ru",
-                "ru-MD"
+                "ru"
             ],
             "ukrainian": [
                 "ro-MD",
-                "ru-MD",
-                "uk"
+                "ru-MD"
             ]
         }
     },
@@ -2643,8 +2445,7 @@
         "languages": {
             "arabic": [
                 "fr-MA",
-                "ar-MA",
-                "ar"
+                "ar-MA"
             ],
             "tamazight": [
                 "fr-MA",
@@ -2723,18 +2524,15 @@
         "languages": {
             "dutch": [
                 "nl",
-                "fy-NL",
-                "nl-NL"
+                "fy-NL"
             ],
             "english": [
                 "en",
-                "fy-NL",
-                "nl-NL"
+                "fy-NL"
             ],
             "yiddish": [
                 "yi",
-                "fy-NL",
-                "nl-NL"
+                "fy-NL"
             ]
         }
     },
@@ -2786,13 +2584,11 @@
         "languages": {
             "arabic": [
                 "ha-NE",
-                "ar",
-                "fr-NE"
+                "ar"
             ],
             "french": [
                 "fr",
-                "ha-NE",
-                "fr-NE"
+                "ha-NE"
             ]
         }
     },
@@ -2808,10 +2604,7 @@
         "languages": {
             "english": [
                 "en-NG",
-                "ig-NG",
-                "yo-NG",
-                "ha-NG",
-                "en"
+                "ig-NG"
             ]
         }
     },
@@ -2847,10 +2640,7 @@
         "languages": {
             "norwegian": [
                 "no",
-                "nn-NO",
-                "no-NO",
-                "nb-NO",
-                "se-NO"
+                "nn-NO"
             ]
         }
     },
@@ -2881,15 +2671,11 @@
         "languages": {
             "english": [
                 "ur-PK",
-                "en-PK",
-                "en",
-                "pa-PK"
+                "en-PK"
             ],
             "urdu": [
                 "ur-PK",
-                "ur",
-                "en-PK",
-                "pa-PK"
+                "ur"
             ]
         }
     },
@@ -2976,8 +2762,7 @@
         "languages": {
             "spanish": [
                 "es",
-                "es-PE",
-                "qu-PE"
+                "es-PE"
             ]
         }
     },
@@ -2992,112 +2777,87 @@
         "languages": {
             "aklanon": [
                 "tl-PH",
-                "en-PH",
-                "es-PH"
+                "en-PH"
             ],
             "arabic": [
                 "tl-PH",
-                "en-PH",
-                "es-PH",
-                "ar"
+                "en-PH"
             ],
             "cebuano": [
                 "tl-PH",
-                "en-PH",
-                "es-PH"
+                "en-PH"
             ],
             "chavacano": [
                 "tl-PH",
-                "en-PH",
-                "es-PH"
+                "en-PH"
             ],
             "english": [
                 "tl-PH",
-                "en",
-                "en-PH",
-                "es-PH"
+                "en"
             ],
             "filipino": [
                 "tl-PH",
-                "en-PH",
-                "es-PH"
+                "en-PH"
             ],
             "hiligaynon": [
                 "tl-PH",
-                "en-PH",
-                "es-PH"
+                "en-PH"
             ],
             "ibanag": [
                 "tl-PH",
-                "en-PH",
-                "es-PH"
+                "en-PH"
             ],
             "ilocano": [
                 "tl-PH",
-                "en-PH",
-                "es-PH"
+                "en-PH"
             ],
             "ivatan": [
                 "tl-PH",
-                "en-PH",
-                "es-PH"
+                "en-PH"
             ],
             "kapampangan": [
                 "tl-PH",
-                "en-PH",
-                "es-PH"
+                "en-PH"
             ],
             "kinaray": [
                 "tl-PH",
-                "en-PH",
-                "es-PH"
+                "en-PH"
             ],
             "maguindanao": [
                 "tl-PH",
-                "en-PH",
-                "es-PH"
+                "en-PH"
             ],
             "maranao": [
                 "tl-PH",
-                "en-PH",
-                "es-PH"
+                "en-PH"
             ],
             "pangasinan": [
                 "tl-PH",
-                "en-PH",
-                "es-PH"
+                "en-PH"
             ],
             "sambal": [
                 "tl-PH",
-                "en-PH",
-                "es-PH"
+                "en-PH"
             ],
             "spanish": [
                 "es",
-                "tl-PH",
-                "en-PH",
-                "es-PH"
+                "tl-PH"
             ],
             "tagalog": [
                 "tl-PH",
-                "tl",
-                "en-PH",
-                "es-PH"
+                "tl"
             ],
             "tausug": [
                 "tl-PH",
-                "en-PH",
-                "es-PH"
+                "en-PH"
             ],
             "waray": [
                 "tl-PH",
-                "en-PH",
-                "es-PH"
+                "en-PH"
             ],
             "yakan": [
                 "tl-PH",
-                "en-PH",
-                "es-PH"
+                "en-PH"
             ]
         }
     },
@@ -3285,8 +3045,7 @@
         "languages": {
             "russian": [
                 "ru-RU",
-                "ru",
-                "os-RU"
+                "ru"
             ]
         }
     },
@@ -3303,27 +3062,19 @@
         "languages": {
             "english": [
                 "rw-RW",
-                "en-RW",
-                "fr-RW",
-                "en"
+                "en-RW"
             ],
             "french": [
                 "rw-RW",
-                "en-RW",
-                "fr",
-                "fr-RW"
+                "en-RW"
             ],
             "kinyarwanda": [
                 "rw-RW",
-                "en-RW",
-                "fr-RW",
-                "rw"
+                "en-RW"
             ],
             "swahili": [
                 "rw-RW",
-                "en-RW",
-                "sw",
-                "fr-RW"
+                "en-RW"
             ]
         }
     },
@@ -3441,8 +3192,7 @@
         "languages": {
             "french": [
                 "fr",
-                "ff-SN",
-                "fr-SN"
+                "ff-SN"
             ]
         }
     },
@@ -3474,13 +3224,11 @@
         "languages": {
             "english": [
                 "en-SC",
-                "en",
-                "fr-SC"
+                "en"
             ],
             "french": [
                 "en-SC",
-                "fr",
-                "fr-SC"
+                "fr"
             ]
         }
     },
@@ -3513,30 +3261,19 @@
         "languages": {
             "english": [
                 "zh-SG",
-                "en-SG",
-                "ms-SG",
-                "en",
-                "ta-SG"
+                "en-SG"
             ],
             "malay": [
                 "zh-SG",
-                "en-SG",
-                "ms-SG",
-                "ms",
-                "ta-SG"
+                "en-SG"
             ],
             "mandarin chinese": [
                 "zh-SG",
-                "ms-SG",
-                "en-SG",
-                "ta-SG"
+                "ms-SG"
             ],
             "tamil": [
                 "zh-SG",
-                "en-SG",
-                "ta",
-                "ms-SG",
-                "ta-SG"
+                "en-SG"
             ]
         }
     },
@@ -3649,8 +3386,7 @@
         "languages": {
             "arabic": [
                 "ar-SO",
-                "ar",
-                "so-SO"
+                "ar"
             ]
         }
     },
@@ -3666,61 +3402,47 @@
         "languages": {
             "afrikaans": [
                 "af-ZA",
-                "en-ZA",
-                "zu-ZA",
-                "af"
+                "en-ZA"
             ],
             "english": [
                 "af-ZA",
-                "en-ZA",
-                "zu-ZA",
-                "en"
+                "en-ZA"
             ],
             "northern sotho": [
                 "af-ZA",
-                "en-ZA",
-                "zu-ZA"
+                "en-ZA"
             ],
             "sotho": [
                 "af-ZA",
-                "en-ZA",
-                "zu-ZA"
+                "en-ZA"
             ],
             "southern ndebele": [
                 "af-ZA",
-                "en-ZA",
-                "zu-ZA"
+                "en-ZA"
             ],
             "swazi": [
                 "af-ZA",
-                "en-ZA",
-                "zu-ZA"
+                "en-ZA"
             ],
             "tsonga": [
                 "af-ZA",
-                "en-ZA",
-                "zu-ZA"
+                "en-ZA"
             ],
             "tswana": [
                 "af-ZA",
-                "en-ZA",
-                "zu-ZA"
+                "en-ZA"
             ],
             "venda": [
                 "af-ZA",
-                "en-ZA",
-                "zu-ZA"
+                "en-ZA"
             ],
             "xhosa": [
                 "af-ZA",
-                "en-ZA",
-                "zu-ZA"
+                "en-ZA"
             ],
             "zulu": [
                 "af-ZA",
-                "en-ZA",
-                "zu",
-                "zu-ZA"
+                "en-ZA"
             ]
         }
     },
@@ -3737,13 +3459,11 @@
         "languages": {
             "arabic": [
                 "en-SS",
-                "ar",
-                "ar-SS"
+                "ar"
             ],
             "english": [
                 "en",
-                "en-SS",
-                "ar-SS"
+                "en-SS"
             ]
         }
     },
@@ -3758,24 +3478,15 @@
         "languages": {
             "french": [
                 "eu-ES",
-                "fr",
-                "ca-ES",
-                "gl-ES",
-                "es-ES"
+                "fr"
             ],
             "portuguese": [
                 "eu-ES",
-                "pt",
-                "ca-ES",
-                "gl-ES",
-                "es-ES"
+                "pt"
             ],
             "spanish": [
                 "es",
-                "eu-ES",
-                "ca-ES",
-                "gl-ES",
-                "es-ES"
+                "eu-ES"
             ]
         }
     },
@@ -3790,13 +3501,11 @@
         "languages": {
             "sinhala": [
                 "si",
-                "ta-LK",
-                "si-LK"
+                "ta-LK"
             ],
             "tamil": [
                 "ta",
-                "ta-LK",
-                "si-LK"
+                "ta-LK"
             ]
         }
     },
@@ -3810,13 +3519,11 @@
         "languages": {
             "arabic": [
                 "ar-SD",
-                "en-SD",
-                "ar"
+                "en-SD"
             ],
             "english": [
                 "en",
-                "ar-SD",
-                "en-SD"
+                "ar-SD"
             ]
         }
     },
@@ -3850,13 +3557,11 @@
         "languages": {
             "finnish": [
                 "se-SE",
-                "fi",
-                "sv-SE"
+                "fi"
             ],
             "swedish": [
                 "se-SE",
-                "sv",
-                "sv-SE"
+                "sv"
             ]
         }
     },
@@ -3876,31 +3581,19 @@
         "languages": {
             "french": [
                 "fr",
-                "fr-CH",
-                "rm-CH",
-                "de-CH",
-                "it-CH"
+                "fr-CH"
             ],
             "german": [
                 "de",
-                "fr-CH",
-                "rm-CH",
-                "de-CH",
-                "it-CH"
+                "fr-CH"
             ],
             "italian": [
                 "it",
-                "fr-CH",
-                "rm-CH",
-                "de-CH",
-                "it-CH"
+                "fr-CH"
             ],
             "romansh": [
                 "rm",
-                "fr-CH",
-                "rm-CH",
-                "de-CH",
-                "it-CH"
+                "fr-CH"
             ]
         }
     },
@@ -3950,13 +3643,11 @@
         "languages": {
             "english": [
                 "en",
-                "en-TZ",
-                "sw-TZ"
+                "en-TZ"
             ],
             "swahili": [
                 "sw",
-                "en-TZ",
-                "sw-TZ"
+                "en-TZ"
             ]
         }
     },
@@ -3988,8 +3679,7 @@
         "languages": {
             "french": [
                 "fr",
-                "fr-TG",
-                "ee-TG"
+                "fr-TG"
             ]
         }
     },
@@ -4006,13 +3696,11 @@
         "languages": {
             "english": [
                 "en",
-                "to-TO",
-                "en-TO"
+                "to-TO"
             ],
             "tongan": [
                 "to-TO",
-                "to",
-                "en-TO"
+                "to"
             ]
         }
     },
@@ -4044,8 +3732,7 @@
         "languages": {
             "arabic": [
                 "ar-TN",
-                "fr-TN",
-                "ar"
+                "fr-TN"
             ],
             "tunisian": [
                 "ar-TN",
@@ -4120,15 +3807,11 @@
         "languages": {
             "english": [
                 "en",
-                "en-UG",
-                "sw-UG",
-                "lg-UG"
+                "en-UG"
             ],
             "swahili": [
                 "en-UG",
-                "sw",
-                "sw-UG",
-                "lg-UG"
+                "sw"
             ]
         }
     },
@@ -4146,13 +3829,11 @@
         "languages": {
             "russian": [
                 "ru-UA",
-                "ru",
-                "uk-UA"
+                "ru"
             ],
             "ukrainian": [
                 "uk",
-                "ru-UA",
-                "uk-UA"
+                "ru-UA"
             ]
         }
     },
@@ -4186,50 +3867,31 @@
         "languages": {
             "english": [
                 "kw-GB",
-                "gd-GB",
-                "cy-GB",
-                "en-GB",
-                "en"
+                "gd-GB"
             ],
             "french": [
                 "kw-GB",
-                "gd-GB",
-                "cy-GB",
-                "en-GB",
-                "fr"
+                "gd-GB"
             ],
             "irish": [
                 "kw-GB",
-                "gd-GB",
-                "cy-GB",
-                "en-GB",
-                "ga"
+                "gd-GB"
             ],
             "manx": [
                 "kw-GB",
-                "gd-GB",
-                "cy-GB",
-                "gv",
-                "en-GB"
+                "gd-GB"
             ],
             "pitcairnese": [
                 "cy-GB",
-                "kw-GB",
-                "gd-GB",
-                "en-GB"
+                "kw-GB"
             ],
             "scottish": [
                 "cy-GB",
-                "kw-GB",
-                "gd-GB",
-                "en-GB"
+                "kw-GB"
             ],
             "welsh": [
                 "cy",
-                "kw-GB",
-                "gd-GB",
-                "cy-GB",
-                "en-GB"
+                "kw-GB"
             ]
         }
     },
@@ -4249,8 +3911,7 @@
         "languages": {
             "english": [
                 "es-US",
-                "en",
-                "en-US"
+                "en"
             ]
         }
     },
@@ -4303,13 +3964,11 @@
         "languages": {
             "english": [
                 "en-VU",
-                "en",
-                "fr-VU"
+                "en"
             ],
             "french": [
                 "en-VU",
-                "fr",
-                "fr-VU"
+                "fr"
             ]
         }
     },
@@ -4401,29 +4060,23 @@
         "languages": {
             "chewa": [
                 "nd-ZW",
-                "sn-ZW",
-                "en-ZW"
+                "sn-ZW"
             ],
             "english": [
                 "nd-ZW",
-                "en",
-                "sn-ZW",
-                "en-ZW"
+                "en"
             ],
             "kalanga": [
                 "nd-ZW",
-                "sn-ZW",
-                "en-ZW"
+                "sn-ZW"
             ],
             "khoisan": [
                 "nd-ZW",
-                "sn-ZW",
-                "en-ZW"
+                "sn-ZW"
             ],
             "nambya": [
                 "nd-ZW",
-                "sn-ZW",
-                "en-ZW"
+                "sn-ZW"
             ]
         }
     }
