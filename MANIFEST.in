@@ -1,0 +1,2 @@
+include random_header_generator/data/*.txt
+include random_header_generator/data/*.json
