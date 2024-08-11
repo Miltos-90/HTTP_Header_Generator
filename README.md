@@ -297,7 +297,6 @@ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like 
 
 Having instantiated a generator with one of the approaches outline above, the headers can be generated with a variety of ways, specifying any combination of the following input arguments:
 
-In particular, the available headers cover the following:
 * `browser`: A string with one of the following values: 'chrome', 'edge', 'firefox', 'safari', 'opera'
 * `device` : A string indicating the device type, with applicable value being 'desktop' or 'mobile'
 * `http_version`: An integer indicating if the headers correspond to HTTP version 1.x (1), or 2.0 (2)
